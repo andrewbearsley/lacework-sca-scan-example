@@ -1,0 +1,20 @@
+{
+  "name": "agpl-example",
+  "version": "1.0.0",
+  "description": "Example package with AGPL-3.0 license for SCA scanning",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "agpl",
+    "license",
+    "sca",
+    "example"
+  ],
+  "author": "Example Author",
+  "license": "AGPL-3.0",
+  "dependencies": {
+    "mongodb": "^3.6.0"
+  }
+}

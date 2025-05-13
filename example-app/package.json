@@ -1,0 +1,17 @@
+{
+  "name": "example-app",
+  "version": "1.0.0",
+  "description": "Example application that uses an AGPL-3.0 licensed package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Example Author",
+  "license": "MIT",
+  "dependencies": {
+    "agpl-example": "file:../agpl-example",
+    "lodash": "4.17.15",
+    "express": "4.16.0"
+  }
+}
