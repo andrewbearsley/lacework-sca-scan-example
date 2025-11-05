@@ -8,13 +8,13 @@ https://docs.fortinet.com/document/lacework-forticnapp/latest/administration-gui
 
 ## Prerequisites
 
-1. Install the Lacework CLI. See [Lacework CLI installation guide](https://docs.fortinet.com/document/lacework-forticnapp/latest/administration-guide/433465/software-composition-analysis-sca) for platform-specific instructions.
-
-2. Clone this repository:
+1. Clone this repository:
 ```bash
 git clone <repository-url>
 cd lacework-sca-scan-example
 ```
+
+2. Install the Lacework CLI. See [Lacework CLI installation guide](https://docs.fortinet.com/document/lacework-forticnapp/latest/administration-guide/433465/software-composition-analysis-sca) for platform-specific instructions.
 
 ## Usage
 ```bash
