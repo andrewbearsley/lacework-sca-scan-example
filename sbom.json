@@ -1,0 +1,5316 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:3591c61e-3b5b-4282-928c-73420cd84828",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2025-06-26T05:57:17Z",
+    "tools": {
+      "services": [
+        {
+          "provider": {
+            "name": "Fortinet",
+            "address": {},
+            "url": [],
+            "contact": []
+          },
+          "name": "Lacework FortiCNAPP SCA",
+          "version": "0.1.50"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "0",
+      "type": "library",
+      "supplier": {
+        "name": ""
+      },
+      "name": "https://github.com/andrewbearsley/lacework-sca-scan-example.git",
+      "scope": "required",
+      "cpe": "cpe:2.3:a:*:https\\:\\/\\/github.com\\/andrewbearsley\\/lacework-sca-scan-example.git:*:*:*:*:*:*:*:*",
+      "swid": {
+        "tagId": "0",
+        "name": "https://github.com/andrewbearsley/lacework-sca-scan-example.git"
+      },
+      "properties": [
+        {
+          "name": "Path",
+          "value": "https://github.com/andrewbearsley/lacework-sca-scan-example.git"
+        },
+        {
+          "name": "Class",
+          "value": "collection"
+        },
+        {
+          "name": "Type",
+          "value": "repo"
+        },
+        {
+          "name": "Language",
+          "value": "none"
+        },
+        {
+          "name": "DeepLicense",
+          "value": "(Apache-2.0 OR BSD-3-Clause OR MIT) AND AGPL-3.0 AND Apache-2.0 AND BSD-3-Clause AND ISC AND MIT"
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "InputKind",
+        "value": "Repository"
+      },
+      {
+        "name": "InputLocation",
+        "value": "/Users/andrewbearsley/Work/lacework-sca-scan-example"
+      },
+      {
+        "name": "InputOrigin",
+        "value": "ABs-MacBook-Pro.local"
+      },
+      {
+        "name": "PlatformOS",
+        "value": "darwin"
+      },
+      {
+        "name": "PlatformArchitecture",
+        "value": "arm64"
+      },
+      {
+        "name": "PlatformOSVersion",
+        "value": "15.5"
+      },
+      {
+        "name": "DeepLicense",
+        "value": "(Apache-2.0 OR BSD-3-Clause OR MIT) AND AGPL-3.0 AND Apache-2.0 AND BSD-3-Clause AND ISC AND MIT"
+      },
+      {
+        "name": "deployment",
+        "value": "local"
+      },
+      {
+        "name": "version",
+        "value": "0.1.50"
+      }
+    ]
+  },
+  "components": [
+    {
+      "bom-ref": "2",
+      "type": "file",
+      "supplier": {
+        "name": ""
+      },
+      "name": "agpl-example",
+      "version": "1.0.0",
+      "scope": "required",
+      "licenses": [
+        {
+          "expression": "AGPL-3.0"
+        }
+      ],
+      "cpe": "cpe:2.3:a:*:agpl-example:1.0.0:*:*:*:*:*:*:*",
+      "swid": {
+        "tagId": "2",
+        "name": "agpl-example",
+        "version": "1.0.0"
+      },
+      "properties": [
+        {
+          "name": "Path",
+          "value": "agpl-example/package.json"
+        },
+        {
+          "name": "Class",
+          "value": "source"
+        },
+        {
+          "name": "Type",
+          "value": "npm"
+        },
+        {
+          "name": "Language",
+          "value": "nodejs"
+        },
+        {
+          "name": "DeclaredLicense",
+          "value": "AGPL-3.0"
+        },
+        {
+          "name": "DeepLicense",
+          "value": "(Apache-2.0 OR BSD-3-Clause OR MIT) AND AGPL-3.0 AND Apache-2.0 AND ISC AND MIT"
+        }
+      ],
+      "evidence": {
+        "licenses": [
+          {
+            "expression": "AGPL-3.0"
+          }
+        ]
+      }
+    },
+    {
+      "bom-ref": "pkg:npm/bl@2.2.1",
+      "type": "library",
+      "supplier": {
+        "name": ""
+      },
+      "name": "bl",
+      "version": "2.2.1",
+      "scope": "required",
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "copyright": "Copyright (C) 2013-2018 bl contributors\n",
+      "cpe": "cpe:2.3:a:*:bl:2.2.1:*:*:*:*:*:*:*",
+      "purl": "pkg:npm/bl@2.2.1",
+      "swid": {
+        "tagId": "npm/bl@2.2.1",
+        "name": "bl",
+        "version": "2.2.1"
+      },
+      "properties": [
+        {
+          "name": "Path",
+          "value": ""
+        },
+        {
+          "name": "Class",
+          "value": "pkg"
+        },
+        {
+          "name": "Type",
+          "value": "npm"
+        },
+        {
+          "name": "Language",
+          "value": "nodejs"
+        },
+        {
+          "name": "DeclaredLicense",
+          "value": "MIT"
+        },
+        {
+          "name": "DeepLicense",
+          "value": "MIT"
+        }
+      ],
+      "evidence": {
+        "licenses": [
+          {
+            "expression": "MIT"
+          }
+        ],
+        "copyright": [
+          {
+            "text": "Copyright (C) 2013-2018 bl contributors"
+          }
+        ]
+      }
+    },
+    {
+      "bom-ref": "pkg:npm/bson@1.1.6",
+      "type": "library",
+      "supplier": {
+        "name": ""
+      },
+      "name": "bson",
+      "version": "1.1.6",
+      "scope": "required",
+      "licenses": [
+        {
+          "expression": "Apache-2.0 OR BSD-3-Clause OR MIT"
+        }
+      ],
+      "copyright": "Copyright (C) 2014 facebook, inc.\nCopyright (C) 2008 fair oaks labs, inc.\nCopyright (C) 2009 google inc. all rights reserved\n",
+      "cpe": "cpe:2.3:a:*:bson:1.1.6:*:*:*:*:*:*:*",
+      "purl": "pkg:npm/bson@1.1.6",
+      "swid": {
+        "tagId": "npm/bson@1.1.6",
+        "name": "bson",
+        "version": "1.1.6"
+      },
+      "properties": [
+        {
+          "name": "Path",
+          "value": ""
+        },
+        {
+          "name": "Class",
+          "value": "pkg"
+        },
+        {
+          "name": "Type",
+          "value": "npm"
+        },
+        {
+          "name": "Language",
+          "value": "nodejs"
+        },
+        {
+          "name": "DeclaredLicense",
+          "value": "Apache-2.0"
+        },
+        {
+          "name": "DeepLicense",
+          "value": "Apache-2.0 OR BSD-3-Clause OR MIT"
+        }
+      ],
+      "evidence": {
+        "licenses": [
+          {
+            "expression": "Apache-2.0 OR BSD-3-Clause OR MIT"
+          }
+        ],
+        "copyright": [
+          {
+            "text": "Copyright (C) 2014 facebook, inc."
+          },
+          {
+            "text": "Copyright (C) 2008 fair oaks labs, inc."
+          },
+          {
+            "text": "Copyright (C) 2009 google inc. all rights reserved"
+          }
+        ]
+      }
+    },
+    {
+      "bom-ref": "pkg:npm/core-util-is@1.0.3",
+      "type": "library",
+      "supplier": {
+        "name": ""
+      },
+      "name": "core-util-is",
+      "version": "1.0.3",
+      "scope": "required",
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "cpe": "cpe:2.3:a:*:core-util-is:1.0.3:*:*:*:*:*:*:*",
+      "purl": "pkg:npm/core-util-is@1.0.3",
+      "swid": {
+        "tagId": "npm/core-util-is@1.0.3",
+        "name": "core-util-is",
+        "version": "1.0.3"
+      },
+      "properties": [
+        {
+          "name": "Path",
+          "value": ""
+        },
+        {
+          "name": "Class",
+          "value": "pkg"
+        },
+        {
+          "name": "Type",
+          "value": "npm"
+        },
+        {
+          "name": "Language",
+          "value": "nodejs"
+        },
+        {
+          "name": "DeclaredLicense",
+          "value": "MIT"
+        },
+        {
+          "name": "DeepLicense",
+          "value": "MIT"
+        }
+      ],
+      "evidence": {
+        "licenses": [
+          {
+            "expression": "MIT"
+          }
+        ]
+      }
+    },
+    {
+      "bom-ref": "pkg:npm/denque@1.5.1",
+      "type": "library",
+      "supplier": {
+        "name": ""
+      },
+      "name": "denque",
+      "version": "1.5.1",
+      "scope": "required",
+      "licenses": [
+        {
+          "expression": "Apache-2.0"
+        }
+      ],
+      "copyright": "Copyright (C) 2018 mike diarmid\n",
+      "cpe": "cpe:2.3:a:*:denque:1.5.1:*:*:*:*:*:*:*",
+      "purl": "pkg:npm/denque@1.5.1",
+      "swid": {
+        "tagId": "npm/denque@1.5.1",
+        "name": "denque",
+        "version": "1.5.1"
+      },
+      "properties": [
+        {
+          "name": "Path",
+          "value": ""
+        },
+        {
+          "name": "Class",
+          "value": "pkg"
+        },
+        {
+          "name": "Type",
+          "value": "npm"
+        },
+        {
+          "name": "Language",
+          "value": "nodejs"
+        },
+        {
+          "name": "DeepLicense",
+          "value": "Apache-2.0"
+        }
+      ],
+      "evidence": {
+        "licenses": [
+          {
+            "expression": "Apache-2.0"
+          }
+        ],
+        "copyright": [
+          {
+            "text": "Copyright (C) 2018 mike diarmid"
+          }
+        ]
+      }
+    },
+    {
+      "bom-ref": "pkg:npm/inherits@2.0.4",
+      "type": "library",
+      "supplier": {
+        "name": ""
+      },
+      "name": "inherits",
+      "version": "2.0.4",
+      "scope": "required",
+      "licenses": [
+        {
+          "expression": "ISC"
+        }
+      ],
+      "cpe": "cpe:2.3:a:*:inherits:2.0.4:*:*:*:*:*:*:*",
+      "purl": "pkg:npm/inherits@2.0.4",
+      "swid": {
+        "tagId": "npm/inherits@2.0.4",
+        "name": "inherits",
+        "version": "2.0.4"
+      },
+      "properties": [
+        {
+          "name": "Path",
+          "value": ""
+        },
+        {
+          "name": "Class",
+          "value": "pkg"
+        },
+        {
+          "name": "Type",
+          "value": "npm"
+        },
+        {
+          "name": "Language",
+          "value": "nodejs"
+        },
+        {
+          "name": "DeclaredLicense",
+          "value": "ISC"
+        },
+        {
+          "name": "DeepLicense",
+          "value": "ISC"
+        }
+      ],
+      "evidence": {
+        "licenses": [
+          {
+            "expression": "ISC"
+          }
+        ]
+      }
+    },
+    {
+      "bom-ref": "pkg:npm/isarray@1.0.0",
+      "type": "library",
+      "supplier": {
+        "name": ""
+      },
+      "name": "isarray",
+      "version": "1.0.0",
+      "scope": "required",
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "copyright": "Copyright (C) 2013 julian gruber\n",
+      "cpe": "cpe:2.3:a:*:isarray:1.0.0:*:*:*:*:*:*:*",
+      "purl": "pkg:npm/isarray@1.0.0",
+      "swid": {
+        "tagId": "npm/isarray@1.0.0",
+        "name": "isarray",
+        "version": "1.0.0"
+      },
+      "properties": [
+        {
+          "name": "Path",
+          "value": ""
+        },
+        {
+          "name": "Class",
+          "value": "pkg"
+        },
+        {
+          "name": "Type",
+          "value": "npm"
+        },
+        {
+          "name": "Language",
+          "value": "nodejs"
+        },
+        {
+          "name": "DeepLicense",
+          "value": "MIT"
+        }
+      ],
+      "evidence": {
+        "licenses": [
+          {
+            "expression": "MIT"
+          }
+        ],
+        "copyright": [
+          {
+            "text": "Copyright (C) 2013 julian gruber"
+          }
+        ]
+      }
+    },
+    {
+      "bom-ref": "pkg:npm/memory-pager@1.5.0",
+      "type": "library",
+      "supplier": {
+        "name": ""
+      },
+      "name": "memory-pager",
+      "version": "1.5.0",
+      "scope": "required",
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "copyright": "Copyright (C) 2017 mathias buus\n",
+      "cpe": "cpe:2.3:a:*:memory-pager:1.5.0:*:*:*:*:*:*:*",
+      "purl": "pkg:npm/memory-pager@1.5.0",
+      "swid": {
+        "tagId": "npm/memory-pager@1.5.0",
+        "name": "memory-pager",
+        "version": "1.5.0"
+      },
+      "properties": [
+        {
+          "name": "Path",
+          "value": ""
+        },
+        {
+          "name": "Class",
+          "value": "pkg"
+        },
+        {
+          "name": "Type",
+          "value": "npm"
+        },
+        {
+          "name": "Language",
+          "value": "nodejs"
+        },
+        {
+          "name": "DeclaredLicense",
+          "value": "MIT"
+        },
+        {
+          "name": "DeepLicense",
+          "value": "MIT"
+        }
+      ],
+      "evidence": {
+        "licenses": [
+          {
+            "expression": "MIT"
+          }
+        ],
+        "copyright": [
+          {
+            "text": "Copyright (C) 2017 mathias buus"
+          }
+        ]
+      }
+    },
+    {
+      "bom-ref": "pkg:npm/mongodb@3.7.4",
+      "type": "library",
+      "supplier": {
+        "name": ""
+      },
+      "name": "mongodb",
+      "version": "3.7.4",
+      "scope": "required",
+      "licenses": [
+        {
+          "expression": "Apache-2.0"
+        }
+      ],
+      "cpe": "cpe:2.3:a:*:mongodb:3.7.4:*:*:*:*:*:*:*",
+      "purl": "pkg:npm/mongodb@3.7.4",
+      "swid": {
+        "tagId": "npm/mongodb@3.7.4",
+        "name": "mongodb",
+        "version": "3.7.4"
+      },
+      "properties": [
+        {
+          "name": "Path",
+          "value": ""
+        },
+        {
+          "name": "Class",
+          "value": "pkg"
+        },
+        {
+          "name": "Type",
+          "value": "npm"
+        },
+        {
+          "name": "Language",
+          "value": "nodejs"
+        },
+        {
+          "name": "DeclaredLicense",
+          "value": "Apache-2.0"
+        },
+        {
+          "name": "DeepLicense",
+          "value": "Apache-2.0"
+        }
+      ],
+      "evidence": {
+        "licenses": [
+          {
+            "expression": "Apache-2.0"
+          }
+        ]
+      }
+    },
+    {
+      "bom-ref": "pkg:npm/optional-require@1.1.8",
+      "type": "library",
+      "supplier": {
+        "name": ""
+      },
+      "name": "optional-require",
+      "version": "1.1.8",
+      "scope": "required",
+      "cpe": "cpe:2.3:a:*:optional-require:1.1.8:*:*:*:*:*:*:*",
+      "purl": "pkg:npm/optional-require@1.1.8",
+      "swid": {
+        "tagId": "npm/optional-require@1.1.8",
+        "name": "optional-require",
+        "version": "1.1.8"
+      },
+      "properties": [
+        {
+          "name": "Path",
+          "value": ""
+        },
+        {
+          "name": "Class",
+          "value": "pkg"
+        },
+        {
+          "name": "Type",
+          "value": "npm"
+        },
+        {
+          "name": "Language",
+          "value": "nodejs"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/process-nextick-args@2.0.1",
+      "type": "library",
+      "supplier": {
+        "name": ""
+      },
+      "name": "process-nextick-args",
+      "version": "2.0.1",
+      "scope": "required",
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "copyright": "Copyright (C) 2015 calvin metcalf\n",
+      "cpe": "cpe:2.3:a:*:process-nextick-args:2.0.1:*:*:*:*:*:*:*",
+      "purl": "pkg:npm/process-nextick-args@2.0.1",
+      "swid": {
+        "tagId": "npm/process-nextick-args@2.0.1",
+        "name": "process-nextick-args",
+        "version": "2.0.1"
+      },
+      "properties": [
+        {
+          "name": "Path",
+          "value": ""
+        },
+        {
+          "name": "Class",
+          "value": "pkg"
+        },
+        {
+          "name": "Type",
+          "value": "npm"
+        },
+        {
+          "name": "Language",
+          "value": "nodejs"
+        },
+        {
+          "name": "DeclaredLicense",
+          "value": "MIT"
+        },
+        {
+          "name": "DeepLicense",
+          "value": "MIT"
+        }
+      ],
+      "evidence": {
+        "licenses": [
+          {
+            "expression": "MIT"
+          }
+        ],
+        "copyright": [
+          {
+            "text": "Copyright (C) 2015 calvin metcalf"
+          }
+        ]
+      }
+    },
+    {
+      "bom-ref": "pkg:npm/readable-stream@2.3.8",
+      "type": "library",
+      "supplier": {
+        "name": ""
+      },
+      "name": "readable-stream",
+      "version": "2.3.8",
+      "scope": "required",
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "cpe": "cpe:2.3:a:*:readable-stream:2.3.8:*:*:*:*:*:*:*",
+      "purl": "pkg:npm/readable-stream@2.3.8",
+      "swid": {
+        "tagId": "npm/readable-stream@2.3.8",
+        "name": "readable-stream",
+        "version": "2.3.8"
+      },
+      "properties": [
+        {
+          "name": "Path",
+          "value": ""
+        },
+        {
+          "name": "Class",
+          "value": "pkg"
+        },
+        {
+          "name": "Type",
+          "value": "npm"
+        },
+        {
+          "name": "Language",
+          "value": "nodejs"
+        },
+        {
+          "name": "DeclaredLicense",
+          "value": "MIT"
+        },
+        {
+          "name": "DeepLicense",
+          "value": "MIT"
+        }
+      ],
+      "evidence": {
+        "licenses": [
+          {
+            "expression": "MIT"
+          }
+        ]
+      }
+    },
+    {
+      "bom-ref": "pkg:npm/require-at@1.0.6",
+      "type": "library",
+      "supplier": {
+        "name": ""
+      },
+      "name": "require-at",
+      "version": "1.0.6",
+      "scope": "required",
+      "cpe": "cpe:2.3:a:*:require-at:1.0.6:*:*:*:*:*:*:*",
+      "purl": "pkg:npm/require-at@1.0.6",
+      "swid": {
+        "tagId": "npm/require-at@1.0.6",
+        "name": "require-at",
+        "version": "1.0.6"
+      },
+      "properties": [
+        {
+          "name": "Path",
+          "value": ""
+        },
+        {
+          "name": "Class",
+          "value": "pkg"
+        },
+        {
+          "name": "Type",
+          "value": "npm"
+        },
+        {
+          "name": "Language",
+          "value": "nodejs"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/safe-buffer@5.1.2",
+      "type": "library",
+      "supplier": {
+        "name": ""
+      },
+      "name": "safe-buffer",
+      "version": "5.1.2",
+      "scope": "required",
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "cpe": "cpe:2.3:a:*:safe-buffer:5.1.2:*:*:*:*:*:*:*",
+      "purl": "pkg:npm/safe-buffer@5.1.2",
+      "swid": {
+        "tagId": "npm/safe-buffer@5.1.2",
+        "name": "safe-buffer",
+        "version": "5.1.2"
+      },
+      "properties": [
+        {
+          "name": "Path",
+          "value": ""
+        },
+        {
+          "name": "Class",
+          "value": "pkg"
+        },
+        {
+          "name": "Type",
+          "value": "npm"
+        },
+        {
+          "name": "Language",
+          "value": "nodejs"
+        },
+        {
+          "name": "DeclaredLicense",
+          "value": "MIT"
+        },
+        {
+          "name": "DeepLicense",
+          "value": "MIT"
+        }
+      ],
+      "evidence": {
+        "licenses": [
+          {
+            "expression": "MIT"
+          }
+        ]
+      }
+    },
+    {
+      "bom-ref": "pkg:npm/safe-buffer@5.2.1",
+      "type": "library",
+      "supplier": {
+        "name": ""
+      },
+      "name": "safe-buffer",
+      "version": "5.2.1",
+      "scope": "required",
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "cpe": "cpe:2.3:a:*:safe-buffer:5.2.1:*:*:*:*:*:*:*",
+      "purl": "pkg:npm/safe-buffer@5.2.1",
+      "swid": {
+        "tagId": "npm/safe-buffer@5.2.1",
+        "name": "safe-buffer",
+        "version": "5.2.1"
+      },
+      "properties": [
+        {
+          "name": "Path",
+          "value": ""
+        },
+        {
+          "name": "Class",
+          "value": "pkg"
+        },
+        {
+          "name": "Type",
+          "value": "npm"
+        },
+        {
+          "name": "Language",
+          "value": "nodejs"
+        },
+        {
+          "name": "DeclaredLicense",
+          "value": "MIT"
+        },
+        {
+          "name": "DeepLicense",
+          "value": "MIT"
+        }
+      ],
+      "evidence": {
+        "licenses": [
+          {
+            "expression": "MIT"
+          }
+        ]
+      }
+    },
+    {
+      "bom-ref": "pkg:npm/saslprep@1.0.3",
+      "type": "library",
+      "supplier": {
+        "name": ""
+      },
+      "name": "saslprep",
+      "version": "1.0.3",
+      "scope": "required",
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "copyright": "Copyright (C) 2014 dmitry tsvettsikh\n",
+      "cpe": "cpe:2.3:a:*:saslprep:1.0.3:*:*:*:*:*:*:*",
+      "purl": "pkg:npm/saslprep@1.0.3",
+      "swid": {
+        "tagId": "npm/saslprep@1.0.3",
+        "name": "saslprep",
+        "version": "1.0.3"
+      },
+      "properties": [
+        {
+          "name": "Path",
+          "value": ""
+        },
+        {
+          "name": "Class",
+          "value": "pkg"
+        },
+        {
+          "name": "Type",
+          "value": "npm"
+        },
+        {
+          "name": "Language",
+          "value": "nodejs"
+        },
+        {
+          "name": "DeclaredLicense",
+          "value": "MIT"
+        },
+        {
+          "name": "DeepLicense",
+          "value": "MIT"
+        }
+      ],
+      "evidence": {
+        "licenses": [
+          {
+            "expression": "MIT"
+          }
+        ],
+        "copyright": [
+          {
+            "text": "Copyright (C) 2014 dmitry tsvettsikh"
+          }
+        ]
+      }
+    },
+    {
+      "bom-ref": "pkg:npm/sparse-bitfield@3.0.3",
+      "type": "library",
+      "supplier": {
+        "name": ""
+      },
+      "name": "sparse-bitfield",
+      "version": "3.0.3",
+      "scope": "required",
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "copyright": "Copyright (C) 2016 mathias buus\n",
+      "cpe": "cpe:2.3:a:*:sparse-bitfield:3.0.3:*:*:*:*:*:*:*",
+      "purl": "pkg:npm/sparse-bitfield@3.0.3",
+      "swid": {
+        "tagId": "npm/sparse-bitfield@3.0.3",
+        "name": "sparse-bitfield",
+        "version": "3.0.3"
+      },
+      "properties": [
+        {
+          "name": "Path",
+          "value": ""
+        },
+        {
+          "name": "Class",
+          "value": "pkg"
+        },
+        {
+          "name": "Type",
+          "value": "npm"
+        },
+        {
+          "name": "Language",
+          "value": "nodejs"
+        },
+        {
+          "name": "DeclaredLicense",
+          "value": "MIT"
+        },
+        {
+          "name": "DeepLicense",
+          "value": "MIT"
+        }
+      ],
+      "evidence": {
+        "licenses": [
+          {
+            "expression": "MIT"
+          }
+        ],
+        "copyright": [
+          {
+            "text": "Copyright (C) 2016 mathias buus"
+          }
+        ]
+      }
+    },
+    {
+      "bom-ref": "pkg:npm/string_decoder@1.1.1",
+      "type": "library",
+      "supplier": {
+        "name": ""
+      },
+      "name": "string_decoder",
+      "version": "1.1.1",
+      "scope": "required",
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "cpe": "cpe:2.3:a:*:string_decoder:1.1.1:*:*:*:*:*:*:*",
+      "purl": "pkg:npm/string_decoder@1.1.1",
+      "swid": {
+        "tagId": "npm/string_decoder@1.1.1",
+        "name": "string_decoder",
+        "version": "1.1.1"
+      },
+      "properties": [
+        {
+          "name": "Path",
+          "value": ""
+        },
+        {
+          "name": "Class",
+          "value": "pkg"
+        },
+        {
+          "name": "Type",
+          "value": "npm"
+        },
+        {
+          "name": "Language",
+          "value": "nodejs"
+        },
+        {
+          "name": "DeclaredLicense",
+          "value": "MIT"
+        },
+        {
+          "name": "DeepLicense",
+          "value": "MIT"
+        }
+      ],
+      "evidence": {
+        "licenses": [
+          {
+            "expression": "MIT"
+          }
+        ]
+      }
+    },
+    {
+      "bom-ref": "pkg:npm/util-deprecate@1.0.2",
+      "type": "library",
+      "supplier": {
+        "name": ""
+      },
+      "name": "util-deprecate",
+      "version": "1.0.2",
+      "scope": "required",
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "copyright": "Copyright (C) 2014 nathan rajlich nathan\n",
+      "cpe": "cpe:2.3:a:*:util-deprecate:1.0.2:*:*:*:*:*:*:*",
+      "purl": "pkg:npm/util-deprecate@1.0.2",
+      "swid": {
+        "tagId": "npm/util-deprecate@1.0.2",
+        "name": "util-deprecate",
+        "version": "1.0.2"
+      },
+      "properties": [
+        {
+          "name": "Path",
+          "value": ""
+        },
+        {
+          "name": "Class",
+          "value": "pkg"
+        },
+        {
+          "name": "Type",
+          "value": "npm"
+        },
+        {
+          "name": "Language",
+          "value": "nodejs"
+        },
+        {
+          "name": "DeclaredLicense",
+          "value": "MIT"
+        },
+        {
+          "name": "DeepLicense",
+          "value": "MIT"
+        }
+      ],
+      "evidence": {
+        "licenses": [
+          {
+            "expression": "MIT"
+          }
+        ],
+        "copyright": [
+          {
+            "text": "Copyright (C) 2014 nathan rajlich nathan"
+          }
+        ]
+      }
+    },
+    {
+      "bom-ref": "21",
+      "type": "file",
+      "supplier": {
+        "name": ""
+      },
+      "name": "example-app",
+      "version": "1.0.0",
+      "scope": "required",
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "cpe": "cpe:2.3:a:*:example-app:1.0.0:*:*:*:*:*:*:*",
+      "swid": {
+        "tagId": "21",
+        "name": "example-app",
+        "version": "1.0.0"
+      },
+      "properties": [
+        {
+          "name": "Path",
+          "value": "example-app/package.json"
+        },
+        {
+          "name": "Class",
+          "value": "source"
+        },
+        {
+          "name": "Type",
+          "value": "npm"
+        },
+        {
+          "name": "Language",
+          "value": "nodejs"
+        },
+        {
+          "name": "DeclaredLicense",
+          "value": "MIT"
+        },
+        {
+          "name": "DeepLicense",
+          "value": "BSD-3-Clause AND ISC AND MIT"
+        }
+      ],
+      "evidence": {
+        "licenses": [
+          {
+            "expression": "MIT"
+          }
+        ]
+      }
+    },
+    {
+      "bom-ref": "pkg:npm/accepts@1.3.8",
+      "type": "library",
+      "supplier": {
+        "name": ""
+      },
+      "name": "accepts",
+      "version": "1.3.8",
+      "scope": "required",
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "copyright": "Copyright (C) 2015 douglas christopher wilson doug\nCopyright (C) 2014 jonathan ong me\n",
+      "cpe": "cpe:2.3:a:*:accepts:1.3.8:*:*:*:*:*:*:*",
+      "purl": "pkg:npm/accepts@1.3.8",
+      "swid": {
+        "tagId": "npm/accepts@1.3.8",
+        "name": "accepts",
+        "version": "1.3.8"
+      },
+      "properties": [
+        {
+          "name": "Path",
+          "value": ""
+        },
+        {
+          "name": "Class",
+          "value": "pkg"
+        },
+        {
+          "name": "Type",
+          "value": "npm"
+        },
+        {
+          "name": "Language",
+          "value": "nodejs"
+        },
+        {
+          "name": "DeclaredLicense",
+          "value": "MIT"
+        },
+        {
+          "name": "DeepLicense",
+          "value": "MIT"
+        }
+      ],
+      "evidence": {
+        "licenses": [
+          {
+            "expression": "MIT"
+          }
+        ],
+        "copyright": [
+          {
+            "text": "Copyright (C) 2015 douglas christopher wilson doug"
+          },
+          {
+            "text": "Copyright (C) 2014 jonathan ong me"
+          }
+        ]
+      }
+    },
+    {
+      "bom-ref": "pkg:npm/agpl-example@1.0.0",
+      "type": "library",
+      "supplier": {
+        "name": ""
+      },
+      "name": "agpl-example",
+      "version": "1.0.0",
+      "scope": "required",
+      "cpe": "cpe:2.3:a:*:agpl-example:1.0.0:*:*:*:*:*:*:*",
+      "purl": "pkg:npm/agpl-example@1.0.0",
+      "swid": {
+        "tagId": "npm/agpl-example@1.0.0",
+        "name": "agpl-example",
+        "version": "1.0.0"
+      },
+      "properties": [
+        {
+          "name": "Path",
+          "value": ""
+        },
+        {
+          "name": "Class",
+          "value": "pkg"
+        },
+        {
+          "name": "Type",
+          "value": "npm"
+        },
+        {
+          "name": "Language",
+          "value": "nodejs"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/array-flatten@1.1.1",
+      "type": "library",
+      "supplier": {
+        "name": ""
+      },
+      "name": "array-flatten",
+      "version": "1.1.1",
+      "scope": "required",
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "copyright": "Copyright (C) 2014 blake embrey\n",
+      "cpe": "cpe:2.3:a:*:array-flatten:1.1.1:*:*:*:*:*:*:*",
+      "purl": "pkg:npm/array-flatten@1.1.1",
+      "swid": {
+        "tagId": "npm/array-flatten@1.1.1",
+        "name": "array-flatten",
+        "version": "1.1.1"
+      },
+      "properties": [
+        {
+          "name": "Path",
+          "value": ""
+        },
+        {
+          "name": "Class",
+          "value": "pkg"
+        },
+        {
+          "name": "Type",
+          "value": "npm"
+        },
+        {
+          "name": "Language",
+          "value": "nodejs"
+        },
+        {
+          "name": "DeclaredLicense",
+          "value": "MIT"
+        },
+        {
+          "name": "DeepLicense",
+          "value": "MIT"
+        }
+      ],
+      "evidence": {
+        "licenses": [
+          {
+            "expression": "MIT"
+          }
+        ],
+        "copyright": [
+          {
+            "text": "Copyright (C) 2014 blake embrey"
+          }
+        ]
+      }
+    },
+    {
+      "bom-ref": "pkg:npm/body-parser@1.18.2",
+      "type": "library",
+      "supplier": {
+        "name": ""
+      },
+      "name": "body-parser",
+      "version": "1.18.2",
+      "scope": "required",
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "copyright": "Copyright (C) 2014-2015 douglas christopher wilson doug\nCopyright (C) 2014 jonathan ong me\n",
+      "cpe": "cpe:2.3:a:*:body-parser:1.18.2:*:*:*:*:*:*:*",
+      "purl": "pkg:npm/body-parser@1.18.2",
+      "swid": {
+        "tagId": "npm/body-parser@1.18.2",
+        "name": "body-parser",
+        "version": "1.18.2"
+      },
+      "properties": [
+        {
+          "name": "Path",
+          "value": ""
+        },
+        {
+          "name": "Class",
+          "value": "pkg"
+        },
+        {
+          "name": "Type",
+          "value": "npm"
+        },
+        {
+          "name": "Language",
+          "value": "nodejs"
+        },
+        {
+          "name": "DeclaredLicense",
+          "value": "MIT"
+        },
+        {
+          "name": "DeepLicense",
+          "value": "MIT"
+        }
+      ],
+      "evidence": {
+        "licenses": [
+          {
+            "expression": "MIT"
+          }
+        ],
+        "copyright": [
+          {
+            "text": "Copyright (C) 2014-2015 douglas christopher wilson doug"
+          },
+          {
+            "text": "Copyright (C) 2014 jonathan ong me"
+          }
+        ]
+      }
+    },
+    {
+      "bom-ref": "pkg:npm/bytes@3.0.0",
+      "type": "library",
+      "supplier": {
+        "name": ""
+      },
+      "name": "bytes",
+      "version": "3.0.0",
+      "scope": "required",
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "copyright": "Copyright (C) 2015 jed watson jed.watson\nCopyright (C) 2012-2014 tj holowaychuk tj\n",
+      "cpe": "cpe:2.3:a:*:bytes:3.0.0:*:*:*:*:*:*:*",
+      "purl": "pkg:npm/bytes@3.0.0",
+      "swid": {
+        "tagId": "npm/bytes@3.0.0",
+        "name": "bytes",
+        "version": "3.0.0"
+      },
+      "properties": [
+        {
+          "name": "Path",
+          "value": ""
+        },
+        {
+          "name": "Class",
+          "value": "pkg"
+        },
+        {
+          "name": "Type",
+          "value": "npm"
+        },
+        {
+          "name": "Language",
+          "value": "nodejs"
+        },
+        {
+          "name": "DeclaredLicense",
+          "value": "MIT"
+        },
+        {
+          "name": "DeepLicense",
+          "value": "MIT"
+        }
+      ],
+      "evidence": {
+        "licenses": [
+          {
+            "expression": "MIT"
+          }
+        ],
+        "copyright": [
+          {
+            "text": "Copyright (C) 2015 jed watson jed.watson"
+          },
+          {
+            "text": "Copyright (C) 2012-2014 tj holowaychuk tj"
+          }
+        ]
+      }
+    },
+    {
+      "bom-ref": "pkg:npm/content-disposition@0.5.2",
+      "type": "library",
+      "supplier": {
+        "name": ""
+      },
+      "name": "content-disposition",
+      "version": "0.5.2",
+      "scope": "required",
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "copyright": "Copyright (C) 2014 douglas christopher wilson\n",
+      "cpe": "cpe:2.3:a:*:content-disposition:0.5.2:*:*:*:*:*:*:*",
+      "purl": "pkg:npm/content-disposition@0.5.2",
+      "swid": {
+        "tagId": "npm/content-disposition@0.5.2",
+        "name": "content-disposition",
+        "version": "0.5.2"
+      },
+      "properties": [
+        {
+          "name": "Path",
+          "value": ""
+        },
+        {
+          "name": "Class",
+          "value": "pkg"
+        },
+        {
+          "name": "Type",
+          "value": "npm"
+        },
+        {
+          "name": "Language",
+          "value": "nodejs"
+        },
+        {
+          "name": "DeclaredLicense",
+          "value": "MIT"
+        },
+        {
+          "name": "DeepLicense",
+          "value": "MIT"
+        }
+      ],
+      "evidence": {
+        "licenses": [
+          {
+            "expression": "MIT"
+          }
+        ],
+        "copyright": [
+          {
+            "text": "Copyright (C) 2014 douglas christopher wilson"
+          }
+        ]
+      }
+    },
+    {
+      "bom-ref": "pkg:npm/content-type@1.0.5",
+      "type": "library",
+      "supplier": {
+        "name": ""
+      },
+      "name": "content-type",
+      "version": "1.0.5",
+      "scope": "required",
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "copyright": "Copyright (C) 2015 douglas christopher wilson\n",
+      "cpe": "cpe:2.3:a:*:content-type:1.0.5:*:*:*:*:*:*:*",
+      "purl": "pkg:npm/content-type@1.0.5",
+      "swid": {
+        "tagId": "npm/content-type@1.0.5",
+        "name": "content-type",
+        "version": "1.0.5"
+      },
+      "properties": [
+        {
+          "name": "Path",
+          "value": ""
+        },
+        {
+          "name": "Class",
+          "value": "pkg"
+        },
+        {
+          "name": "Type",
+          "value": "npm"
+        },
+        {
+          "name": "Language",
+          "value": "nodejs"
+        },
+        {
+          "name": "DeclaredLicense",
+          "value": "MIT"
+        },
+        {
+          "name": "DeepLicense",
+          "value": "MIT"
+        }
+      ],
+      "evidence": {
+        "licenses": [
+          {
+            "expression": "MIT"
+          }
+        ],
+        "copyright": [
+          {
+            "text": "Copyright (C) 2015 douglas christopher wilson"
+          }
+        ]
+      }
+    },
+    {
+      "bom-ref": "pkg:npm/cookie-signature@1.0.6",
+      "type": "library",
+      "supplier": {
+        "name": ""
+      },
+      "name": "cookie-signature",
+      "version": "1.0.6",
+      "scope": "required",
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "copyright": "Copyright (C) 2012 learnboost\n",
+      "cpe": "cpe:2.3:a:*:cookie-signature:1.0.6:*:*:*:*:*:*:*",
+      "purl": "pkg:npm/cookie-signature@1.0.6",
+      "swid": {
+        "tagId": "npm/cookie-signature@1.0.6",
+        "name": "cookie-signature",
+        "version": "1.0.6"
+      },
+      "properties": [
+        {
+          "name": "Path",
+          "value": ""
+        },
+        {
+          "name": "Class",
+          "value": "pkg"
+        },
+        {
+          "name": "Type",
+          "value": "npm"
+        },
+        {
+          "name": "Language",
+          "value": "nodejs"
+        },
+        {
+          "name": "DeepLicense",
+          "value": "MIT"
+        }
+      ],
+      "evidence": {
+        "licenses": [
+          {
+            "expression": "MIT"
+          }
+        ],
+        "copyright": [
+          {
+            "text": "Copyright (C) 2012 learnboost"
+          }
+        ]
+      }
+    },
+    {
+      "bom-ref": "pkg:npm/cookie@0.3.1",
+      "type": "library",
+      "supplier": {
+        "name": ""
+      },
+      "name": "cookie",
+      "version": "0.3.1",
+      "scope": "required",
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "copyright": "Copyright (C) 2015 douglas christopher wilson doug\nCopyright (C) 2012-2014 roman shtylman shtylman\n",
+      "cpe": "cpe:2.3:a:*:cookie:0.3.1:*:*:*:*:*:*:*",
+      "purl": "pkg:npm/cookie@0.3.1",
+      "swid": {
+        "tagId": "npm/cookie@0.3.1",
+        "name": "cookie",
+        "version": "0.3.1"
+      },
+      "properties": [
+        {
+          "name": "Path",
+          "value": ""
+        },
+        {
+          "name": "Class",
+          "value": "pkg"
+        },
+        {
+          "name": "Type",
+          "value": "npm"
+        },
+        {
+          "name": "Language",
+          "value": "nodejs"
+        },
+        {
+          "name": "DeclaredLicense",
+          "value": "MIT"
+        },
+        {
+          "name": "DeepLicense",
+          "value": "MIT"
+        }
+      ],
+      "evidence": {
+        "licenses": [
+          {
+            "expression": "MIT"
+          }
+        ],
+        "copyright": [
+          {
+            "text": "Copyright (C) 2015 douglas christopher wilson doug"
+          },
+          {
+            "text": "Copyright (C) 2012-2014 roman shtylman shtylman"
+          }
+        ]
+      }
+    },
+    {
+      "bom-ref": "pkg:npm/debug@2.6.9",
+      "type": "library",
+      "supplier": {
+        "name": ""
+      },
+      "name": "debug",
+      "version": "2.6.9",
+      "scope": "required",
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "copyright": "Copyright (C) 2014-2016 tj holowaychuk\nCopyright (C) 2014 tj holowaychuk tj\n",
+      "cpe": "cpe:2.3:a:*:debug:2.6.9:*:*:*:*:*:*:*",
+      "purl": "pkg:npm/debug@2.6.9",
+      "swid": {
+        "tagId": "npm/debug@2.6.9",
+        "name": "debug",
+        "version": "2.6.9"
+      },
+      "properties": [
+        {
+          "name": "Path",
+          "value": ""
+        },
+        {
+          "name": "Class",
+          "value": "pkg"
+        },
+        {
+          "name": "Type",
+          "value": "npm"
+        },
+        {
+          "name": "Language",
+          "value": "nodejs"
+        },
+        {
+          "name": "DeclaredLicense",
+          "value": "MIT"
+        },
+        {
+          "name": "DeepLicense",
+          "value": "MIT"
+        }
+      ],
+      "evidence": {
+        "licenses": [
+          {
+            "expression": "MIT"
+          }
+        ],
+        "copyright": [
+          {
+            "text": "Copyright (C) 2014-2016 tj holowaychuk"
+          },
+          {
+            "text": "Copyright (C) 2014 tj holowaychuk tj"
+          }
+        ]
+      }
+    },
+    {
+      "bom-ref": "pkg:npm/depd@1.1.1",
+      "type": "library",
+      "supplier": {
+        "name": ""
+      },
+      "name": "depd",
+      "version": "1.1.1",
+      "scope": "required",
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "copyright": "Copyright (C) 2014-2017 douglas christopher wilson\n",
+      "cpe": "cpe:2.3:a:*:depd:1.1.1:*:*:*:*:*:*:*",
+      "purl": "pkg:npm/depd@1.1.1",
+      "swid": {
+        "tagId": "npm/depd@1.1.1",
+        "name": "depd",
+        "version": "1.1.1"
+      },
+      "properties": [
+        {
+          "name": "Path",
+          "value": ""
+        },
+        {
+          "name": "Class",
+          "value": "pkg"
+        },
+        {
+          "name": "Type",
+          "value": "npm"
+        },
+        {
+          "name": "Language",
+          "value": "nodejs"
+        },
+        {
+          "name": "DeclaredLicense",
+          "value": "MIT"
+        },
+        {
+          "name": "DeepLicense",
+          "value": "MIT"
+        }
+      ],
+      "evidence": {
+        "licenses": [
+          {
+            "expression": "MIT"
+          }
+        ],
+        "copyright": [
+          {
+            "text": "Copyright (C) 2014-2017 douglas christopher wilson"
+          }
+        ]
+      }
+    },
+    {
+      "bom-ref": "pkg:npm/depd@1.1.2",
+      "type": "library",
+      "supplier": {
+        "name": ""
+      },
+      "name": "depd",
+      "version": "1.1.2",
+      "scope": "required",
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "copyright": "Copyright (C) 2014-2017 douglas christopher wilson\n",
+      "cpe": "cpe:2.3:a:*:depd:1.1.2:*:*:*:*:*:*:*",
+      "purl": "pkg:npm/depd@1.1.2",
+      "swid": {
+        "tagId": "npm/depd@1.1.2",
+        "name": "depd",
+        "version": "1.1.2"
+      },
+      "properties": [
+        {
+          "name": "Path",
+          "value": ""
+        },
+        {
+          "name": "Class",
+          "value": "pkg"
+        },
+        {
+          "name": "Type",
+          "value": "npm"
+        },
+        {
+          "name": "Language",
+          "value": "nodejs"
+        },
+        {
+          "name": "DeclaredLicense",
+          "value": "MIT"
+        },
+        {
+          "name": "DeepLicense",
+          "value": "MIT"
+        }
+      ],
+      "evidence": {
+        "licenses": [
+          {
+            "expression": "MIT"
+          }
+        ],
+        "copyright": [
+          {
+            "text": "Copyright (C) 2014-2017 douglas christopher wilson"
+          }
+        ]
+      }
+    },
+    {
+      "bom-ref": "pkg:npm/destroy@1.0.4",
+      "type": "library",
+      "supplier": {
+        "name": ""
+      },
+      "name": "destroy",
+      "version": "1.0.4",
+      "scope": "required",
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "copyright": "Copyright (C) 2014 jonathan ong me\n",
+      "cpe": "cpe:2.3:a:*:destroy:1.0.4:*:*:*:*:*:*:*",
+      "purl": "pkg:npm/destroy@1.0.4",
+      "swid": {
+        "tagId": "npm/destroy@1.0.4",
+        "name": "destroy",
+        "version": "1.0.4"
+      },
+      "properties": [
+        {
+          "name": "Path",
+          "value": ""
+        },
+        {
+          "name": "Class",
+          "value": "pkg"
+        },
+        {
+          "name": "Type",
+          "value": "npm"
+        },
+        {
+          "name": "Language",
+          "value": "nodejs"
+        },
+        {
+          "name": "DeclaredLicense",
+          "value": "MIT"
+        },
+        {
+          "name": "DeepLicense",
+          "value": "MIT"
+        }
+      ],
+      "evidence": {
+        "licenses": [
+          {
+            "expression": "MIT"
+          }
+        ],
+        "copyright": [
+          {
+            "text": "Copyright (C) 2014 jonathan ong me"
+          }
+        ]
+      }
+    },
+    {
+      "bom-ref": "pkg:npm/ee-first@1.1.1",
+      "type": "library",
+      "supplier": {
+        "name": ""
+      },
+      "name": "ee-first",
+      "version": "1.1.1",
+      "scope": "required",
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "copyright": "Copyright (C) 2014 jonathan ong me\n",
+      "cpe": "cpe:2.3:a:*:ee-first:1.1.1:*:*:*:*:*:*:*",
+      "purl": "pkg:npm/ee-first@1.1.1",
+      "swid": {
+        "tagId": "npm/ee-first@1.1.1",
+        "name": "ee-first",
+        "version": "1.1.1"
+      },
+      "properties": [
+        {
+          "name": "Path",
+          "value": ""
+        },
+        {
+          "name": "Class",
+          "value": "pkg"
+        },
+        {
+          "name": "Type",
+          "value": "npm"
+        },
+        {
+          "name": "Language",
+          "value": "nodejs"
+        },
+        {
+          "name": "DeclaredLicense",
+          "value": "MIT"
+        },
+        {
+          "name": "DeepLicense",
+          "value": "MIT"
+        }
+      ],
+      "evidence": {
+        "licenses": [
+          {
+            "expression": "MIT"
+          }
+        ],
+        "copyright": [
+          {
+            "text": "Copyright (C) 2014 jonathan ong me"
+          }
+        ]
+      }
+    },
+    {
+      "bom-ref": "pkg:npm/encodeurl@1.0.2",
+      "type": "library",
+      "supplier": {
+        "name": ""
+      },
+      "name": "encodeurl",
+      "version": "1.0.2",
+      "scope": "required",
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "copyright": "Copyright (C) 2016 douglas christopher wilson\n",
+      "cpe": "cpe:2.3:a:*:encodeurl:1.0.2:*:*:*:*:*:*:*",
+      "purl": "pkg:npm/encodeurl@1.0.2",
+      "swid": {
+        "tagId": "npm/encodeurl@1.0.2",
+        "name": "encodeurl",
+        "version": "1.0.2"
+      },
+      "properties": [
+        {
+          "name": "Path",
+          "value": ""
+        },
+        {
+          "name": "Class",
+          "value": "pkg"
+        },
+        {
+          "name": "Type",
+          "value": "npm"
+        },
+        {
+          "name": "Language",
+          "value": "nodejs"
+        },
+        {
+          "name": "DeclaredLicense",
+          "value": "MIT"
+        },
+        {
+          "name": "DeepLicense",
+          "value": "MIT"
+        }
+      ],
+      "evidence": {
+        "licenses": [
+          {
+            "expression": "MIT"
+          }
+        ],
+        "copyright": [
+          {
+            "text": "Copyright (C) 2016 douglas christopher wilson"
+          }
+        ]
+      }
+    },
+    {
+      "bom-ref": "pkg:npm/escape-html@1.0.3",
+      "type": "library",
+      "supplier": {
+        "name": ""
+      },
+      "name": "escape-html",
+      "version": "1.0.3",
+      "scope": "required",
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "copyright": "Copyright (C) 2015 andreas lubbe\nCopyright (C) 2015 tiancheng timothy\nCopyright (C) 2012-2013 tj holowaychuk\n",
+      "cpe": "cpe:2.3:a:*:escape-html:1.0.3:*:*:*:*:*:*:*",
+      "purl": "pkg:npm/escape-html@1.0.3",
+      "swid": {
+        "tagId": "npm/escape-html@1.0.3",
+        "name": "escape-html",
+        "version": "1.0.3"
+      },
+      "properties": [
+        {
+          "name": "Path",
+          "value": ""
+        },
+        {
+          "name": "Class",
+          "value": "pkg"
+        },
+        {
+          "name": "Type",
+          "value": "npm"
+        },
+        {
+          "name": "Language",
+          "value": "nodejs"
+        },
+        {
+          "name": "DeclaredLicense",
+          "value": "MIT"
+        },
+        {
+          "name": "DeepLicense",
+          "value": "MIT"
+        }
+      ],
+      "evidence": {
+        "licenses": [
+          {
+            "expression": "MIT"
+          }
+        ],
+        "copyright": [
+          {
+            "text": "Copyright (C) 2015 andreas lubbe"
+          },
+          {
+            "text": "Copyright (C) 2015 tiancheng timothy"
+          },
+          {
+            "text": "Copyright (C) 2012-2013 tj holowaychuk"
+          }
+        ]
+      }
+    },
+    {
+      "bom-ref": "pkg:npm/etag@1.8.1",
+      "type": "library",
+      "supplier": {
+        "name": ""
+      },
+      "name": "etag",
+      "version": "1.8.1",
+      "scope": "required",
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "copyright": "Copyright (C) 2014-2016 douglas christopher wilson\n",
+      "cpe": "cpe:2.3:a:*:etag:1.8.1:*:*:*:*:*:*:*",
+      "purl": "pkg:npm/etag@1.8.1",
+      "swid": {
+        "tagId": "npm/etag@1.8.1",
+        "name": "etag",
+        "version": "1.8.1"
+      },
+      "properties": [
+        {
+          "name": "Path",
+          "value": ""
+        },
+        {
+          "name": "Class",
+          "value": "pkg"
+        },
+        {
+          "name": "Type",
+          "value": "npm"
+        },
+        {
+          "name": "Language",
+          "value": "nodejs"
+        },
+        {
+          "name": "DeclaredLicense",
+          "value": "MIT"
+        },
+        {
+          "name": "DeepLicense",
+          "value": "MIT"
+        }
+      ],
+      "evidence": {
+        "licenses": [
+          {
+            "expression": "MIT"
+          }
+        ],
+        "copyright": [
+          {
+            "text": "Copyright (C) 2014-2016 douglas christopher wilson"
+          }
+        ]
+      }
+    },
+    {
+      "bom-ref": "pkg:npm/express@4.16.0",
+      "type": "library",
+      "supplier": {
+        "name": ""
+      },
+      "name": "express",
+      "version": "4.16.0",
+      "scope": "required",
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "copyright": "Copyright (C) 2014-2015 douglas christopher wilson doug\nCopyright (C) 2013-2014 roman shtylman shtylman\nCopyright (C) 2009-2014 tj holowaychuk tj\n",
+      "cpe": "cpe:2.3:a:*:express:4.16.0:*:*:*:*:*:*:*",
+      "purl": "pkg:npm/express@4.16.0",
+      "swid": {
+        "tagId": "npm/express@4.16.0",
+        "name": "express",
+        "version": "4.16.0"
+      },
+      "properties": [
+        {
+          "name": "Path",
+          "value": ""
+        },
+        {
+          "name": "Class",
+          "value": "pkg"
+        },
+        {
+          "name": "Type",
+          "value": "npm"
+        },
+        {
+          "name": "Language",
+          "value": "nodejs"
+        },
+        {
+          "name": "DeclaredLicense",
+          "value": "MIT"
+        },
+        {
+          "name": "DeepLicense",
+          "value": "MIT"
+        }
+      ],
+      "evidence": {
+        "licenses": [
+          {
+            "expression": "MIT"
+          }
+        ],
+        "copyright": [
+          {
+            "text": "Copyright (C) 2014-2015 douglas christopher wilson doug"
+          },
+          {
+            "text": "Copyright (C) 2013-2014 roman shtylman shtylman"
+          },
+          {
+            "text": "Copyright (C) 2009-2014 tj holowaychuk tj"
+          }
+        ]
+      }
+    },
+    {
+      "bom-ref": "pkg:npm/finalhandler@1.1.0",
+      "type": "library",
+      "supplier": {
+        "name": ""
+      },
+      "name": "finalhandler",
+      "version": "1.1.0",
+      "scope": "required",
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "copyright": "Copyright (C) 2014-2017 douglas christopher wilson doug\n",
+      "cpe": "cpe:2.3:a:*:finalhandler:1.1.0:*:*:*:*:*:*:*",
+      "purl": "pkg:npm/finalhandler@1.1.0",
+      "swid": {
+        "tagId": "npm/finalhandler@1.1.0",
+        "name": "finalhandler",
+        "version": "1.1.0"
+      },
+      "properties": [
+        {
+          "name": "Path",
+          "value": ""
+        },
+        {
+          "name": "Class",
+          "value": "pkg"
+        },
+        {
+          "name": "Type",
+          "value": "npm"
+        },
+        {
+          "name": "Language",
+          "value": "nodejs"
+        },
+        {
+          "name": "DeclaredLicense",
+          "value": "MIT"
+        },
+        {
+          "name": "DeepLicense",
+          "value": "MIT"
+        }
+      ],
+      "evidence": {
+        "licenses": [
+          {
+            "expression": "MIT"
+          }
+        ],
+        "copyright": [
+          {
+            "text": "Copyright (C) 2014-2017 douglas christopher wilson doug"
+          }
+        ]
+      }
+    },
+    {
+      "bom-ref": "pkg:npm/forwarded@0.2.0",
+      "type": "library",
+      "supplier": {
+        "name": ""
+      },
+      "name": "forwarded",
+      "version": "0.2.0",
+      "scope": "required",
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "copyright": "Copyright (C) 2014-2017 douglas christopher wilson\n",
+      "cpe": "cpe:2.3:a:*:forwarded:0.2.0:*:*:*:*:*:*:*",
+      "purl": "pkg:npm/forwarded@0.2.0",
+      "swid": {
+        "tagId": "npm/forwarded@0.2.0",
+        "name": "forwarded",
+        "version": "0.2.0"
+      },
+      "properties": [
+        {
+          "name": "Path",
+          "value": ""
+        },
+        {
+          "name": "Class",
+          "value": "pkg"
+        },
+        {
+          "name": "Type",
+          "value": "npm"
+        },
+        {
+          "name": "Language",
+          "value": "nodejs"
+        },
+        {
+          "name": "DeclaredLicense",
+          "value": "MIT"
+        },
+        {
+          "name": "DeepLicense",
+          "value": "MIT"
+        }
+      ],
+      "evidence": {
+        "licenses": [
+          {
+            "expression": "MIT"
+          }
+        ],
+        "copyright": [
+          {
+            "text": "Copyright (C) 2014-2017 douglas christopher wilson"
+          }
+        ]
+      }
+    },
+    {
+      "bom-ref": "pkg:npm/fresh@0.5.2",
+      "type": "library",
+      "supplier": {
+        "name": ""
+      },
+      "name": "fresh",
+      "version": "0.5.2",
+      "scope": "required",
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "copyright": "Copyright (C) 2016-2017 douglas christopher wilson doug\nCopyright (C) 2012 tj holowaychuk tj\n",
+      "cpe": "cpe:2.3:a:*:fresh:0.5.2:*:*:*:*:*:*:*",
+      "purl": "pkg:npm/fresh@0.5.2",
+      "swid": {
+        "tagId": "npm/fresh@0.5.2",
+        "name": "fresh",
+        "version": "0.5.2"
+      },
+      "properties": [
+        {
+          "name": "Path",
+          "value": ""
+        },
+        {
+          "name": "Class",
+          "value": "pkg"
+        },
+        {
+          "name": "Type",
+          "value": "npm"
+        },
+        {
+          "name": "Language",
+          "value": "nodejs"
+        },
+        {
+          "name": "DeclaredLicense",
+          "value": "MIT"
+        },
+        {
+          "name": "DeepLicense",
+          "value": "MIT"
+        }
+      ],
+      "evidence": {
+        "licenses": [
+          {
+            "expression": "MIT"
+          }
+        ],
+        "copyright": [
+          {
+            "text": "Copyright (C) 2016-2017 douglas christopher wilson doug"
+          },
+          {
+            "text": "Copyright (C) 2012 tj holowaychuk tj"
+          }
+        ]
+      }
+    },
+    {
+      "bom-ref": "pkg:npm/http-errors@1.6.2",
+      "type": "library",
+      "supplier": {
+        "name": ""
+      },
+      "name": "http-errors",
+      "version": "1.6.2",
+      "scope": "required",
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "copyright": "Copyright (C) 2016 douglas christopher wilson doug\nCopyright (C) 2014 jonathan ong me\n",
+      "cpe": "cpe:2.3:a:*:http-errors:1.6.2:*:*:*:*:*:*:*",
+      "purl": "pkg:npm/http-errors@1.6.2",
+      "swid": {
+        "tagId": "npm/http-errors@1.6.2",
+        "name": "http-errors",
+        "version": "1.6.2"
+      },
+      "properties": [
+        {
+          "name": "Path",
+          "value": ""
+        },
+        {
+          "name": "Class",
+          "value": "pkg"
+        },
+        {
+          "name": "Type",
+          "value": "npm"
+        },
+        {
+          "name": "Language",
+          "value": "nodejs"
+        },
+        {
+          "name": "DeclaredLicense",
+          "value": "MIT"
+        },
+        {
+          "name": "DeepLicense",
+          "value": "MIT"
+        }
+      ],
+      "evidence": {
+        "licenses": [
+          {
+            "expression": "MIT"
+          }
+        ],
+        "copyright": [
+          {
+            "text": "Copyright (C) 2016 douglas christopher wilson doug"
+          },
+          {
+            "text": "Copyright (C) 2014 jonathan ong me"
+          }
+        ]
+      }
+    },
+    {
+      "bom-ref": "pkg:npm/http-errors@1.6.3",
+      "type": "library",
+      "supplier": {
+        "name": ""
+      },
+      "name": "http-errors",
+      "version": "1.6.3",
+      "scope": "required",
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "copyright": "Copyright (C) 2016 douglas christopher wilson doug\nCopyright (C) 2014 jonathan ong me\n",
+      "cpe": "cpe:2.3:a:*:http-errors:1.6.3:*:*:*:*:*:*:*",
+      "purl": "pkg:npm/http-errors@1.6.3",
+      "swid": {
+        "tagId": "npm/http-errors@1.6.3",
+        "name": "http-errors",
+        "version": "1.6.3"
+      },
+      "properties": [
+        {
+          "name": "Path",
+          "value": ""
+        },
+        {
+          "name": "Class",
+          "value": "pkg"
+        },
+        {
+          "name": "Type",
+          "value": "npm"
+        },
+        {
+          "name": "Language",
+          "value": "nodejs"
+        },
+        {
+          "name": "DeclaredLicense",
+          "value": "MIT"
+        },
+        {
+          "name": "DeepLicense",
+          "value": "MIT"
+        }
+      ],
+      "evidence": {
+        "licenses": [
+          {
+            "expression": "MIT"
+          }
+        ],
+        "copyright": [
+          {
+            "text": "Copyright (C) 2016 douglas christopher wilson doug"
+          },
+          {
+            "text": "Copyright (C) 2014 jonathan ong me"
+          }
+        ]
+      }
+    },
+    {
+      "bom-ref": "pkg:npm/iconv-lite@0.4.19",
+      "type": "library",
+      "supplier": {
+        "name": ""
+      },
+      "name": "iconv-lite",
+      "version": "0.4.19",
+      "scope": "required",
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "copyright": "Copyright (C) 2011 alexander shtuchkin\n",
+      "cpe": "cpe:2.3:a:*:iconv-lite:0.4.19:*:*:*:*:*:*:*",
+      "purl": "pkg:npm/iconv-lite@0.4.19",
+      "swid": {
+        "tagId": "npm/iconv-lite@0.4.19",
+        "name": "iconv-lite",
+        "version": "0.4.19"
+      },
+      "properties": [
+        {
+          "name": "Path",
+          "value": ""
+        },
+        {
+          "name": "Class",
+          "value": "pkg"
+        },
+        {
+          "name": "Type",
+          "value": "npm"
+        },
+        {
+          "name": "Language",
+          "value": "nodejs"
+        },
+        {
+          "name": "DeclaredLicense",
+          "value": "MIT"
+        },
+        {
+          "name": "DeepLicense",
+          "value": "MIT"
+        }
+      ],
+      "evidence": {
+        "licenses": [
+          {
+            "expression": "MIT"
+          }
+        ],
+        "copyright": [
+          {
+            "text": "Copyright (C) 2011 alexander shtuchkin"
+          }
+        ]
+      }
+    },
+    {
+      "bom-ref": "pkg:npm/inherits@2.0.3",
+      "type": "library",
+      "supplier": {
+        "name": ""
+      },
+      "name": "inherits",
+      "version": "2.0.3",
+      "scope": "required",
+      "licenses": [
+        {
+          "expression": "ISC"
+        }
+      ],
+      "cpe": "cpe:2.3:a:*:inherits:2.0.3:*:*:*:*:*:*:*",
+      "purl": "pkg:npm/inherits@2.0.3",
+      "swid": {
+        "tagId": "npm/inherits@2.0.3",
+        "name": "inherits",
+        "version": "2.0.3"
+      },
+      "properties": [
+        {
+          "name": "Path",
+          "value": ""
+        },
+        {
+          "name": "Class",
+          "value": "pkg"
+        },
+        {
+          "name": "Type",
+          "value": "npm"
+        },
+        {
+          "name": "Language",
+          "value": "nodejs"
+        },
+        {
+          "name": "DeclaredLicense",
+          "value": "ISC"
+        },
+        {
+          "name": "DeepLicense",
+          "value": "ISC"
+        }
+      ],
+      "evidence": {
+        "licenses": [
+          {
+            "expression": "ISC"
+          }
+        ]
+      }
+    },
+    {
+      "bom-ref": "pkg:npm/ipaddr.js@1.9.1",
+      "type": "library",
+      "supplier": {
+        "name": ""
+      },
+      "name": "ipaddr.js",
+      "version": "1.9.1",
+      "scope": "required",
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "copyright": "Copyright (C) 2011-2017 whitequark whitequark\n",
+      "cpe": "cpe:2.3:a:*:ipaddr.js:1.9.1:*:*:*:*:*:*:*",
+      "purl": "pkg:npm/ipaddr.js@1.9.1",
+      "swid": {
+        "tagId": "npm/ipaddr.js@1.9.1",
+        "name": "ipaddr.js",
+        "version": "1.9.1"
+      },
+      "properties": [
+        {
+          "name": "Path",
+          "value": ""
+        },
+        {
+          "name": "Class",
+          "value": "pkg"
+        },
+        {
+          "name": "Type",
+          "value": "npm"
+        },
+        {
+          "name": "Language",
+          "value": "nodejs"
+        },
+        {
+          "name": "DeclaredLicense",
+          "value": "MIT"
+        },
+        {
+          "name": "DeepLicense",
+          "value": "MIT"
+        }
+      ],
+      "evidence": {
+        "licenses": [
+          {
+            "expression": "MIT"
+          }
+        ],
+        "copyright": [
+          {
+            "text": "Copyright (C) 2011-2017 whitequark whitequark"
+          }
+        ]
+      }
+    },
+    {
+      "bom-ref": "pkg:npm/lodash@4.17.15",
+      "type": "library",
+      "supplier": {
+        "name": ""
+      },
+      "name": "lodash",
+      "version": "4.17.15",
+      "scope": "required",
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "cpe": "cpe:2.3:a:*:lodash:4.17.15:*:*:*:*:*:*:*",
+      "purl": "pkg:npm/lodash@4.17.15",
+      "swid": {
+        "tagId": "npm/lodash@4.17.15",
+        "name": "lodash",
+        "version": "4.17.15"
+      },
+      "properties": [
+        {
+          "name": "Path",
+          "value": ""
+        },
+        {
+          "name": "Class",
+          "value": "pkg"
+        },
+        {
+          "name": "Type",
+          "value": "npm"
+        },
+        {
+          "name": "Language",
+          "value": "nodejs"
+        },
+        {
+          "name": "DeclaredLicense",
+          "value": "MIT"
+        },
+        {
+          "name": "DeepLicense",
+          "value": "MIT"
+        }
+      ],
+      "evidence": {
+        "licenses": [
+          {
+            "expression": "MIT"
+          }
+        ]
+      }
+    },
+    {
+      "bom-ref": "pkg:npm/media-typer@0.3.0",
+      "type": "library",
+      "supplier": {
+        "name": ""
+      },
+      "name": "media-typer",
+      "version": "0.3.0",
+      "scope": "required",
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "copyright": "Copyright (C) 2014 douglas christopher wilson\n",
+      "cpe": "cpe:2.3:a:*:media-typer:0.3.0:*:*:*:*:*:*:*",
+      "purl": "pkg:npm/media-typer@0.3.0",
+      "swid": {
+        "tagId": "npm/media-typer@0.3.0",
+        "name": "media-typer",
+        "version": "0.3.0"
+      },
+      "properties": [
+        {
+          "name": "Path",
+          "value": ""
+        },
+        {
+          "name": "Class",
+          "value": "pkg"
+        },
+        {
+          "name": "Type",
+          "value": "npm"
+        },
+        {
+          "name": "Language",
+          "value": "nodejs"
+        },
+        {
+          "name": "DeclaredLicense",
+          "value": "MIT"
+        },
+        {
+          "name": "DeepLicense",
+          "value": "MIT"
+        }
+      ],
+      "evidence": {
+        "licenses": [
+          {
+            "expression": "MIT"
+          }
+        ],
+        "copyright": [
+          {
+            "text": "Copyright (C) 2014 douglas christopher wilson"
+          }
+        ]
+      }
+    },
+    {
+      "bom-ref": "pkg:npm/merge-descriptors@1.0.1",
+      "type": "library",
+      "supplier": {
+        "name": ""
+      },
+      "name": "merge-descriptors",
+      "version": "1.0.1",
+      "scope": "required",
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "copyright": "Copyright (C) 2015 douglas christopher wilson doug\nCopyright (C) 2013 jonathan ong me\n",
+      "cpe": "cpe:2.3:a:*:merge-descriptors:1.0.1:*:*:*:*:*:*:*",
+      "purl": "pkg:npm/merge-descriptors@1.0.1",
+      "swid": {
+        "tagId": "npm/merge-descriptors@1.0.1",
+        "name": "merge-descriptors",
+        "version": "1.0.1"
+      },
+      "properties": [
+        {
+          "name": "Path",
+          "value": ""
+        },
+        {
+          "name": "Class",
+          "value": "pkg"
+        },
+        {
+          "name": "Type",
+          "value": "npm"
+        },
+        {
+          "name": "Language",
+          "value": "nodejs"
+        },
+        {
+          "name": "DeclaredLicense",
+          "value": "MIT"
+        },
+        {
+          "name": "DeepLicense",
+          "value": "MIT"
+        }
+      ],
+      "evidence": {
+        "licenses": [
+          {
+            "expression": "MIT"
+          }
+        ],
+        "copyright": [
+          {
+            "text": "Copyright (C) 2015 douglas christopher wilson doug"
+          },
+          {
+            "text": "Copyright (C) 2013 jonathan ong me"
+          }
+        ]
+      }
+    },
+    {
+      "bom-ref": "pkg:npm/methods@1.1.2",
+      "type": "library",
+      "supplier": {
+        "name": ""
+      },
+      "name": "methods",
+      "version": "1.1.2",
+      "scope": "required",
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "copyright": "Copyright (C) 2015-2016 douglas christopher wilson doug\nCopyright (C) 2013-2014 tj holowaychuk tj\n",
+      "cpe": "cpe:2.3:a:*:methods:1.1.2:*:*:*:*:*:*:*",
+      "purl": "pkg:npm/methods@1.1.2",
+      "swid": {
+        "tagId": "npm/methods@1.1.2",
+        "name": "methods",
+        "version": "1.1.2"
+      },
+      "properties": [
+        {
+          "name": "Path",
+          "value": ""
+        },
+        {
+          "name": "Class",
+          "value": "pkg"
+        },
+        {
+          "name": "Type",
+          "value": "npm"
+        },
+        {
+          "name": "Language",
+          "value": "nodejs"
+        },
+        {
+          "name": "DeclaredLicense",
+          "value": "MIT"
+        },
+        {
+          "name": "DeepLicense",
+          "value": "MIT"
+        }
+      ],
+      "evidence": {
+        "licenses": [
+          {
+            "expression": "MIT"
+          }
+        ],
+        "copyright": [
+          {
+            "text": "Copyright (C) 2015-2016 douglas christopher wilson doug"
+          },
+          {
+            "text": "Copyright (C) 2013-2014 tj holowaychuk tj"
+          }
+        ]
+      }
+    },
+    {
+      "bom-ref": "pkg:npm/mime-db@1.52.0",
+      "type": "library",
+      "supplier": {
+        "name": ""
+      },
+      "name": "mime-db",
+      "version": "1.52.0",
+      "scope": "required",
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "copyright": "Copyright (C) 2015-2022 douglas christopher wilson doug\nCopyright (C) 2014 jonathan ong me\n",
+      "cpe": "cpe:2.3:a:*:mime-db:1.52.0:*:*:*:*:*:*:*",
+      "purl": "pkg:npm/mime-db@1.52.0",
+      "swid": {
+        "tagId": "npm/mime-db@1.52.0",
+        "name": "mime-db",
+        "version": "1.52.0"
+      },
+      "properties": [
+        {
+          "name": "Path",
+          "value": ""
+        },
+        {
+          "name": "Class",
+          "value": "pkg"
+        },
+        {
+          "name": "Type",
+          "value": "npm"
+        },
+        {
+          "name": "Language",
+          "value": "nodejs"
+        },
+        {
+          "name": "DeclaredLicense",
+          "value": "MIT"
+        },
+        {
+          "name": "DeepLicense",
+          "value": "MIT"
+        }
+      ],
+      "evidence": {
+        "licenses": [
+          {
+            "expression": "MIT"
+          }
+        ],
+        "copyright": [
+          {
+            "text": "Copyright (C) 2015-2022 douglas christopher wilson doug"
+          },
+          {
+            "text": "Copyright (C) 2014 jonathan ong me"
+          }
+        ]
+      }
+    },
+    {
+      "bom-ref": "pkg:npm/mime-types@2.1.35",
+      "type": "library",
+      "supplier": {
+        "name": ""
+      },
+      "name": "mime-types",
+      "version": "2.1.35",
+      "scope": "required",
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "copyright": "Copyright (C) 2015 douglas christopher wilson doug\nCopyright (C) 2014 jonathan ong me\n",
+      "cpe": "cpe:2.3:a:*:mime-types:2.1.35:*:*:*:*:*:*:*",
+      "purl": "pkg:npm/mime-types@2.1.35",
+      "swid": {
+        "tagId": "npm/mime-types@2.1.35",
+        "name": "mime-types",
+        "version": "2.1.35"
+      },
+      "properties": [
+        {
+          "name": "Path",
+          "value": ""
+        },
+        {
+          "name": "Class",
+          "value": "pkg"
+        },
+        {
+          "name": "Type",
+          "value": "npm"
+        },
+        {
+          "name": "Language",
+          "value": "nodejs"
+        },
+        {
+          "name": "DeclaredLicense",
+          "value": "MIT"
+        },
+        {
+          "name": "DeepLicense",
+          "value": "MIT"
+        }
+      ],
+      "evidence": {
+        "licenses": [
+          {
+            "expression": "MIT"
+          }
+        ],
+        "copyright": [
+          {
+            "text": "Copyright (C) 2015 douglas christopher wilson doug"
+          },
+          {
+            "text": "Copyright (C) 2014 jonathan ong me"
+          }
+        ]
+      }
+    },
+    {
+      "bom-ref": "pkg:npm/mime@1.4.1",
+      "type": "library",
+      "supplier": {
+        "name": ""
+      },
+      "name": "mime",
+      "version": "1.4.1",
+      "scope": "required",
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "copyright": "Copyright (C) 2010 benjamin thomas, robert kieffer\n",
+      "cpe": "cpe:2.3:a:*:mime:1.4.1:*:*:*:*:*:*:*",
+      "purl": "pkg:npm/mime@1.4.1",
+      "swid": {
+        "tagId": "npm/mime@1.4.1",
+        "name": "mime",
+        "version": "1.4.1"
+      },
+      "properties": [
+        {
+          "name": "Path",
+          "value": ""
+        },
+        {
+          "name": "Class",
+          "value": "pkg"
+        },
+        {
+          "name": "Type",
+          "value": "npm"
+        },
+        {
+          "name": "Language",
+          "value": "nodejs"
+        },
+        {
+          "name": "DeclaredLicense",
+          "value": "MIT"
+        },
+        {
+          "name": "DeepLicense",
+          "value": "MIT"
+        }
+      ],
+      "evidence": {
+        "licenses": [
+          {
+            "expression": "MIT"
+          }
+        ],
+        "copyright": [
+          {
+            "text": "Copyright (C) 2010 benjamin thomas, robert kieffer"
+          }
+        ]
+      }
+    },
+    {
+      "bom-ref": "pkg:npm/ms@2.0.0",
+      "type": "library",
+      "supplier": {
+        "name": ""
+      },
+      "name": "ms",
+      "version": "2.0.0",
+      "scope": "required",
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "copyright": "Copyright (C) 2016 zeit, inc.\n",
+      "cpe": "cpe:2.3:a:*:ms:2.0.0:*:*:*:*:*:*:*",
+      "purl": "pkg:npm/ms@2.0.0",
+      "swid": {
+        "tagId": "npm/ms@2.0.0",
+        "name": "ms",
+        "version": "2.0.0"
+      },
+      "properties": [
+        {
+          "name": "Path",
+          "value": ""
+        },
+        {
+          "name": "Class",
+          "value": "pkg"
+        },
+        {
+          "name": "Type",
+          "value": "npm"
+        },
+        {
+          "name": "Language",
+          "value": "nodejs"
+        },
+        {
+          "name": "DeclaredLicense",
+          "value": "MIT"
+        },
+        {
+          "name": "DeepLicense",
+          "value": "MIT"
+        }
+      ],
+      "evidence": {
+        "licenses": [
+          {
+            "expression": "MIT"
+          }
+        ],
+        "copyright": [
+          {
+            "text": "Copyright (C) 2016 zeit, inc."
+          }
+        ]
+      }
+    },
+    {
+      "bom-ref": "pkg:npm/negotiator@0.6.3",
+      "type": "library",
+      "supplier": {
+        "name": ""
+      },
+      "name": "negotiator",
+      "version": "0.6.3",
+      "scope": "required",
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "copyright": "Copyright (C) 2014-2015 douglas christopher wilson\nCopyright (C) 2012-2014 federico romero\nCopyright (C) 2012-2014 isaac z. schlueter\n",
+      "cpe": "cpe:2.3:a:*:negotiator:0.6.3:*:*:*:*:*:*:*",
+      "purl": "pkg:npm/negotiator@0.6.3",
+      "swid": {
+        "tagId": "npm/negotiator@0.6.3",
+        "name": "negotiator",
+        "version": "0.6.3"
+      },
+      "properties": [
+        {
+          "name": "Path",
+          "value": ""
+        },
+        {
+          "name": "Class",
+          "value": "pkg"
+        },
+        {
+          "name": "Type",
+          "value": "npm"
+        },
+        {
+          "name": "Language",
+          "value": "nodejs"
+        },
+        {
+          "name": "DeclaredLicense",
+          "value": "MIT"
+        },
+        {
+          "name": "DeepLicense",
+          "value": "MIT"
+        }
+      ],
+      "evidence": {
+        "licenses": [
+          {
+            "expression": "MIT"
+          }
+        ],
+        "copyright": [
+          {
+            "text": "Copyright (C) 2014-2015 douglas christopher wilson"
+          },
+          {
+            "text": "Copyright (C) 2012-2014 federico romero"
+          },
+          {
+            "text": "Copyright (C) 2012-2014 isaac z. schlueter"
+          }
+        ]
+      }
+    },
+    {
+      "bom-ref": "pkg:npm/on-finished@2.3.0",
+      "type": "library",
+      "supplier": {
+        "name": ""
+      },
+      "name": "on-finished",
+      "version": "2.3.0",
+      "scope": "required",
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "copyright": "Copyright (C) 2014 douglas christopher wilson doug\nCopyright (C) 2013 jonathan ong me\n",
+      "cpe": "cpe:2.3:a:*:on-finished:2.3.0:*:*:*:*:*:*:*",
+      "purl": "pkg:npm/on-finished@2.3.0",
+      "swid": {
+        "tagId": "npm/on-finished@2.3.0",
+        "name": "on-finished",
+        "version": "2.3.0"
+      },
+      "properties": [
+        {
+          "name": "Path",
+          "value": ""
+        },
+        {
+          "name": "Class",
+          "value": "pkg"
+        },
+        {
+          "name": "Type",
+          "value": "npm"
+        },
+        {
+          "name": "Language",
+          "value": "nodejs"
+        },
+        {
+          "name": "DeclaredLicense",
+          "value": "MIT"
+        },
+        {
+          "name": "DeepLicense",
+          "value": "MIT"
+        }
+      ],
+      "evidence": {
+        "licenses": [
+          {
+            "expression": "MIT"
+          }
+        ],
+        "copyright": [
+          {
+            "text": "Copyright (C) 2014 douglas christopher wilson doug"
+          },
+          {
+            "text": "Copyright (C) 2013 jonathan ong me"
+          }
+        ]
+      }
+    },
+    {
+      "bom-ref": "pkg:npm/parseurl@1.3.3",
+      "type": "library",
+      "supplier": {
+        "name": ""
+      },
+      "name": "parseurl",
+      "version": "1.3.3",
+      "scope": "required",
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "copyright": "Copyright (C) 2014-2017 douglas christopher wilson doug\nCopyright (C) 2014 jonathan ong me\n",
+      "cpe": "cpe:2.3:a:*:parseurl:1.3.3:*:*:*:*:*:*:*",
+      "purl": "pkg:npm/parseurl@1.3.3",
+      "swid": {
+        "tagId": "npm/parseurl@1.3.3",
+        "name": "parseurl",
+        "version": "1.3.3"
+      },
+      "properties": [
+        {
+          "name": "Path",
+          "value": ""
+        },
+        {
+          "name": "Class",
+          "value": "pkg"
+        },
+        {
+          "name": "Type",
+          "value": "npm"
+        },
+        {
+          "name": "Language",
+          "value": "nodejs"
+        },
+        {
+          "name": "DeclaredLicense",
+          "value": "MIT"
+        },
+        {
+          "name": "DeepLicense",
+          "value": "MIT"
+        }
+      ],
+      "evidence": {
+        "licenses": [
+          {
+            "expression": "MIT"
+          }
+        ],
+        "copyright": [
+          {
+            "text": "Copyright (C) 2014-2017 douglas christopher wilson doug"
+          },
+          {
+            "text": "Copyright (C) 2014 jonathan ong me"
+          }
+        ]
+      }
+    },
+    {
+      "bom-ref": "pkg:npm/path-to-regexp@0.1.7",
+      "type": "library",
+      "supplier": {
+        "name": ""
+      },
+      "name": "path-to-regexp",
+      "version": "0.1.7",
+      "scope": "required",
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "copyright": "Copyright (C) 2014 blake embrey\n",
+      "cpe": "cpe:2.3:a:*:path-to-regexp:0.1.7:*:*:*:*:*:*:*",
+      "purl": "pkg:npm/path-to-regexp@0.1.7",
+      "swid": {
+        "tagId": "npm/path-to-regexp@0.1.7",
+        "name": "path-to-regexp",
+        "version": "0.1.7"
+      },
+      "properties": [
+        {
+          "name": "Path",
+          "value": ""
+        },
+        {
+          "name": "Class",
+          "value": "pkg"
+        },
+        {
+          "name": "Type",
+          "value": "npm"
+        },
+        {
+          "name": "Language",
+          "value": "nodejs"
+        },
+        {
+          "name": "DeclaredLicense",
+          "value": "MIT"
+        },
+        {
+          "name": "DeepLicense",
+          "value": "MIT"
+        }
+      ],
+      "evidence": {
+        "licenses": [
+          {
+            "expression": "MIT"
+          }
+        ],
+        "copyright": [
+          {
+            "text": "Copyright (C) 2014 blake embrey"
+          }
+        ]
+      }
+    },
+    {
+      "bom-ref": "pkg:npm/proxy-addr@2.0.7",
+      "type": "library",
+      "supplier": {
+        "name": ""
+      },
+      "name": "proxy-addr",
+      "version": "2.0.7",
+      "scope": "required",
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "copyright": "Copyright (C) 2014-2016 douglas christopher wilson\n",
+      "cpe": "cpe:2.3:a:*:proxy-addr:2.0.7:*:*:*:*:*:*:*",
+      "purl": "pkg:npm/proxy-addr@2.0.7",
+      "swid": {
+        "tagId": "npm/proxy-addr@2.0.7",
+        "name": "proxy-addr",
+        "version": "2.0.7"
+      },
+      "properties": [
+        {
+          "name": "Path",
+          "value": ""
+        },
+        {
+          "name": "Class",
+          "value": "pkg"
+        },
+        {
+          "name": "Type",
+          "value": "npm"
+        },
+        {
+          "name": "Language",
+          "value": "nodejs"
+        },
+        {
+          "name": "DeclaredLicense",
+          "value": "MIT"
+        },
+        {
+          "name": "DeepLicense",
+          "value": "MIT"
+        }
+      ],
+      "evidence": {
+        "licenses": [
+          {
+            "expression": "MIT"
+          }
+        ],
+        "copyright": [
+          {
+            "text": "Copyright (C) 2014-2016 douglas christopher wilson"
+          }
+        ]
+      }
+    },
+    {
+      "bom-ref": "pkg:npm/qs@6.5.1",
+      "type": "library",
+      "supplier": {
+        "name": ""
+      },
+      "name": "qs",
+      "version": "6.5.1",
+      "scope": "required",
+      "licenses": [
+        {
+          "expression": "BSD-3-Clause"
+        }
+      ],
+      "copyright": "Copyright (C) 2014 nathan lafreniere and other contributors.\n",
+      "cpe": "cpe:2.3:a:*:qs:6.5.1:*:*:*:*:*:*:*",
+      "purl": "pkg:npm/qs@6.5.1",
+      "swid": {
+        "tagId": "npm/qs@6.5.1",
+        "name": "qs",
+        "version": "6.5.1"
+      },
+      "properties": [
+        {
+          "name": "Path",
+          "value": ""
+        },
+        {
+          "name": "Class",
+          "value": "pkg"
+        },
+        {
+          "name": "Type",
+          "value": "npm"
+        },
+        {
+          "name": "Language",
+          "value": "nodejs"
+        },
+        {
+          "name": "DeclaredLicense",
+          "value": "BSD-3-Clause"
+        },
+        {
+          "name": "DeepLicense",
+          "value": "BSD-3-Clause"
+        }
+      ],
+      "evidence": {
+        "licenses": [
+          {
+            "expression": "BSD-3-Clause"
+          }
+        ],
+        "copyright": [
+          {
+            "text": "Copyright (C) 2014 nathan lafreniere and other contributors."
+          }
+        ]
+      }
+    },
+    {
+      "bom-ref": "pkg:npm/range-parser@1.2.1",
+      "type": "library",
+      "supplier": {
+        "name": ""
+      },
+      "name": "range-parser",
+      "version": "1.2.1",
+      "scope": "required",
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "copyright": "Copyright (C) 2015-2016 douglas christopher wilson doug\nCopyright (C) 2012-2014 tj holowaychuk tj\n",
+      "cpe": "cpe:2.3:a:*:range-parser:1.2.1:*:*:*:*:*:*:*",
+      "purl": "pkg:npm/range-parser@1.2.1",
+      "swid": {
+        "tagId": "npm/range-parser@1.2.1",
+        "name": "range-parser",
+        "version": "1.2.1"
+      },
+      "properties": [
+        {
+          "name": "Path",
+          "value": ""
+        },
+        {
+          "name": "Class",
+          "value": "pkg"
+        },
+        {
+          "name": "Type",
+          "value": "npm"
+        },
+        {
+          "name": "Language",
+          "value": "nodejs"
+        },
+        {
+          "name": "DeclaredLicense",
+          "value": "MIT"
+        },
+        {
+          "name": "DeepLicense",
+          "value": "MIT"
+        }
+      ],
+      "evidence": {
+        "licenses": [
+          {
+            "expression": "MIT"
+          }
+        ],
+        "copyright": [
+          {
+            "text": "Copyright (C) 2015-2016 douglas christopher wilson doug"
+          },
+          {
+            "text": "Copyright (C) 2012-2014 tj holowaychuk tj"
+          }
+        ]
+      }
+    },
+    {
+      "bom-ref": "pkg:npm/raw-body@2.3.2",
+      "type": "library",
+      "supplier": {
+        "name": ""
+      },
+      "name": "raw-body",
+      "version": "2.3.2",
+      "scope": "required",
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "copyright": "Copyright (C) 2014-2015 douglas christopher wilson doug\nCopyright (C) 2013-2014 jonathan ong me\n",
+      "cpe": "cpe:2.3:a:*:raw-body:2.3.2:*:*:*:*:*:*:*",
+      "purl": "pkg:npm/raw-body@2.3.2",
+      "swid": {
+        "tagId": "npm/raw-body@2.3.2",
+        "name": "raw-body",
+        "version": "2.3.2"
+      },
+      "properties": [
+        {
+          "name": "Path",
+          "value": ""
+        },
+        {
+          "name": "Class",
+          "value": "pkg"
+        },
+        {
+          "name": "Type",
+          "value": "npm"
+        },
+        {
+          "name": "Language",
+          "value": "nodejs"
+        },
+        {
+          "name": "DeclaredLicense",
+          "value": "MIT"
+        },
+        {
+          "name": "DeepLicense",
+          "value": "MIT"
+        }
+      ],
+      "evidence": {
+        "licenses": [
+          {
+            "expression": "MIT"
+          }
+        ],
+        "copyright": [
+          {
+            "text": "Copyright (C) 2014-2015 douglas christopher wilson doug"
+          },
+          {
+            "text": "Copyright (C) 2013-2014 jonathan ong me"
+          }
+        ]
+      }
+    },
+    {
+      "bom-ref": "pkg:npm/safe-buffer@5.1.1",
+      "type": "library",
+      "supplier": {
+        "name": ""
+      },
+      "name": "safe-buffer",
+      "version": "5.1.1",
+      "scope": "required",
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "cpe": "cpe:2.3:a:*:safe-buffer:5.1.1:*:*:*:*:*:*:*",
+      "purl": "pkg:npm/safe-buffer@5.1.1",
+      "swid": {
+        "tagId": "npm/safe-buffer@5.1.1",
+        "name": "safe-buffer",
+        "version": "5.1.1"
+      },
+      "properties": [
+        {
+          "name": "Path",
+          "value": ""
+        },
+        {
+          "name": "Class",
+          "value": "pkg"
+        },
+        {
+          "name": "Type",
+          "value": "npm"
+        },
+        {
+          "name": "Language",
+          "value": "nodejs"
+        },
+        {
+          "name": "DeclaredLicense",
+          "value": "MIT"
+        },
+        {
+          "name": "DeepLicense",
+          "value": "MIT"
+        }
+      ],
+      "evidence": {
+        "licenses": [
+          {
+            "expression": "MIT"
+          }
+        ]
+      }
+    },
+    {
+      "bom-ref": "pkg:npm/send@0.16.0",
+      "type": "library",
+      "supplier": {
+        "name": ""
+      },
+      "name": "send",
+      "version": "0.16.0",
+      "scope": "required",
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "copyright": "Copyright (C) 2014-2016 douglas christopher wilson\nCopyright (C) 2012 tj holowaychuk\n",
+      "cpe": "cpe:2.3:a:*:send:0.16.0:*:*:*:*:*:*:*",
+      "purl": "pkg:npm/send@0.16.0",
+      "swid": {
+        "tagId": "npm/send@0.16.0",
+        "name": "send",
+        "version": "0.16.0"
+      },
+      "properties": [
+        {
+          "name": "Path",
+          "value": ""
+        },
+        {
+          "name": "Class",
+          "value": "pkg"
+        },
+        {
+          "name": "Type",
+          "value": "npm"
+        },
+        {
+          "name": "Language",
+          "value": "nodejs"
+        },
+        {
+          "name": "DeclaredLicense",
+          "value": "MIT"
+        },
+        {
+          "name": "DeepLicense",
+          "value": "MIT"
+        }
+      ],
+      "evidence": {
+        "licenses": [
+          {
+            "expression": "MIT"
+          }
+        ],
+        "copyright": [
+          {
+            "text": "Copyright (C) 2014-2016 douglas christopher wilson"
+          },
+          {
+            "text": "Copyright (C) 2012 tj holowaychuk"
+          }
+        ]
+      }
+    },
+    {
+      "bom-ref": "pkg:npm/serve-static@1.13.0",
+      "type": "library",
+      "supplier": {
+        "name": ""
+      },
+      "name": "serve-static",
+      "version": "1.13.0",
+      "scope": "required",
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "copyright": "Copyright (C) 2014-2016 douglas christopher wilson\nCopyright (C) 2011 learnboost\nCopyright (C) 2010 sencha inc.\nCopyright (C) 2011 tj holowaychuk\n",
+      "cpe": "cpe:2.3:a:*:serve-static:1.13.0:*:*:*:*:*:*:*",
+      "purl": "pkg:npm/serve-static@1.13.0",
+      "swid": {
+        "tagId": "npm/serve-static@1.13.0",
+        "name": "serve-static",
+        "version": "1.13.0"
+      },
+      "properties": [
+        {
+          "name": "Path",
+          "value": ""
+        },
+        {
+          "name": "Class",
+          "value": "pkg"
+        },
+        {
+          "name": "Type",
+          "value": "npm"
+        },
+        {
+          "name": "Language",
+          "value": "nodejs"
+        },
+        {
+          "name": "DeclaredLicense",
+          "value": "MIT"
+        },
+        {
+          "name": "DeepLicense",
+          "value": "MIT"
+        }
+      ],
+      "evidence": {
+        "licenses": [
+          {
+            "expression": "MIT"
+          }
+        ],
+        "copyright": [
+          {
+            "text": "Copyright (C) 2014-2016 douglas christopher wilson"
+          },
+          {
+            "text": "Copyright (C) 2011 learnboost"
+          },
+          {
+            "text": "Copyright (C) 2010 sencha inc."
+          },
+          {
+            "text": "Copyright (C) 2011 tj holowaychuk"
+          }
+        ]
+      }
+    },
+    {
+      "bom-ref": "pkg:npm/setprototypeof@1.0.3",
+      "type": "library",
+      "supplier": {
+        "name": ""
+      },
+      "name": "setprototypeof",
+      "version": "1.0.3",
+      "scope": "required",
+      "licenses": [
+        {
+          "expression": "ISC"
+        }
+      ],
+      "copyright": "Copyright (C) 2015 wes todd\n",
+      "cpe": "cpe:2.3:a:*:setprototypeof:1.0.3:*:*:*:*:*:*:*",
+      "purl": "pkg:npm/setprototypeof@1.0.3",
+      "swid": {
+        "tagId": "npm/setprototypeof@1.0.3",
+        "name": "setprototypeof",
+        "version": "1.0.3"
+      },
+      "properties": [
+        {
+          "name": "Path",
+          "value": ""
+        },
+        {
+          "name": "Class",
+          "value": "pkg"
+        },
+        {
+          "name": "Type",
+          "value": "npm"
+        },
+        {
+          "name": "Language",
+          "value": "nodejs"
+        },
+        {
+          "name": "DeclaredLicense",
+          "value": "ISC"
+        },
+        {
+          "name": "DeepLicense",
+          "value": "ISC"
+        }
+      ],
+      "evidence": {
+        "licenses": [
+          {
+            "expression": "ISC"
+          }
+        ],
+        "copyright": [
+          {
+            "text": "Copyright (C) 2015 wes todd"
+          }
+        ]
+      }
+    },
+    {
+      "bom-ref": "pkg:npm/setprototypeof@1.1.0",
+      "type": "library",
+      "supplier": {
+        "name": ""
+      },
+      "name": "setprototypeof",
+      "version": "1.1.0",
+      "scope": "required",
+      "licenses": [
+        {
+          "expression": "ISC"
+        }
+      ],
+      "copyright": "Copyright (C) 2015 wes todd\n",
+      "cpe": "cpe:2.3:a:*:setprototypeof:1.1.0:*:*:*:*:*:*:*",
+      "purl": "pkg:npm/setprototypeof@1.1.0",
+      "swid": {
+        "tagId": "npm/setprototypeof@1.1.0",
+        "name": "setprototypeof",
+        "version": "1.1.0"
+      },
+      "properties": [
+        {
+          "name": "Path",
+          "value": ""
+        },
+        {
+          "name": "Class",
+          "value": "pkg"
+        },
+        {
+          "name": "Type",
+          "value": "npm"
+        },
+        {
+          "name": "Language",
+          "value": "nodejs"
+        },
+        {
+          "name": "DeclaredLicense",
+          "value": "ISC"
+        },
+        {
+          "name": "DeepLicense",
+          "value": "ISC"
+        }
+      ],
+      "evidence": {
+        "licenses": [
+          {
+            "expression": "ISC"
+          }
+        ],
+        "copyright": [
+          {
+            "text": "Copyright (C) 2015 wes todd"
+          }
+        ]
+      }
+    },
+    {
+      "bom-ref": "pkg:npm/statuses@1.3.1",
+      "type": "library",
+      "supplier": {
+        "name": ""
+      },
+      "name": "statuses",
+      "version": "1.3.1",
+      "scope": "required",
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "copyright": "Copyright (C) 2016 douglas christopher wilson doug\nCopyright (C) 2014 jonathan ong me\n",
+      "cpe": "cpe:2.3:a:*:statuses:1.3.1:*:*:*:*:*:*:*",
+      "purl": "pkg:npm/statuses@1.3.1",
+      "swid": {
+        "tagId": "npm/statuses@1.3.1",
+        "name": "statuses",
+        "version": "1.3.1"
+      },
+      "properties": [
+        {
+          "name": "Path",
+          "value": ""
+        },
+        {
+          "name": "Class",
+          "value": "pkg"
+        },
+        {
+          "name": "Type",
+          "value": "npm"
+        },
+        {
+          "name": "Language",
+          "value": "nodejs"
+        },
+        {
+          "name": "DeclaredLicense",
+          "value": "MIT"
+        },
+        {
+          "name": "DeepLicense",
+          "value": "MIT"
+        }
+      ],
+      "evidence": {
+        "licenses": [
+          {
+            "expression": "MIT"
+          }
+        ],
+        "copyright": [
+          {
+            "text": "Copyright (C) 2016 douglas christopher wilson doug"
+          },
+          {
+            "text": "Copyright (C) 2014 jonathan ong me"
+          }
+        ]
+      }
+    },
+    {
+      "bom-ref": "pkg:npm/statuses@1.5.0",
+      "type": "library",
+      "supplier": {
+        "name": ""
+      },
+      "name": "statuses",
+      "version": "1.5.0",
+      "scope": "required",
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "copyright": "Copyright (C) 2016 douglas christopher wilson doug\nCopyright (C) 2014 jonathan ong me\n",
+      "cpe": "cpe:2.3:a:*:statuses:1.5.0:*:*:*:*:*:*:*",
+      "purl": "pkg:npm/statuses@1.5.0",
+      "swid": {
+        "tagId": "npm/statuses@1.5.0",
+        "name": "statuses",
+        "version": "1.5.0"
+      },
+      "properties": [
+        {
+          "name": "Path",
+          "value": ""
+        },
+        {
+          "name": "Class",
+          "value": "pkg"
+        },
+        {
+          "name": "Type",
+          "value": "npm"
+        },
+        {
+          "name": "Language",
+          "value": "nodejs"
+        },
+        {
+          "name": "DeclaredLicense",
+          "value": "MIT"
+        },
+        {
+          "name": "DeepLicense",
+          "value": "MIT"
+        }
+      ],
+      "evidence": {
+        "licenses": [
+          {
+            "expression": "MIT"
+          }
+        ],
+        "copyright": [
+          {
+            "text": "Copyright (C) 2016 douglas christopher wilson doug"
+          },
+          {
+            "text": "Copyright (C) 2014 jonathan ong me"
+          }
+        ]
+      }
+    },
+    {
+      "bom-ref": "pkg:npm/type-is@1.6.18",
+      "type": "library",
+      "supplier": {
+        "name": ""
+      },
+      "name": "type-is",
+      "version": "1.6.18",
+      "scope": "required",
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "copyright": "Copyright (C) 2014-2015 douglas christopher wilson doug\nCopyright (C) 2014 jonathan ong me\n",
+      "cpe": "cpe:2.3:a:*:type-is:1.6.18:*:*:*:*:*:*:*",
+      "purl": "pkg:npm/type-is@1.6.18",
+      "swid": {
+        "tagId": "npm/type-is@1.6.18",
+        "name": "type-is",
+        "version": "1.6.18"
+      },
+      "properties": [
+        {
+          "name": "Path",
+          "value": ""
+        },
+        {
+          "name": "Class",
+          "value": "pkg"
+        },
+        {
+          "name": "Type",
+          "value": "npm"
+        },
+        {
+          "name": "Language",
+          "value": "nodejs"
+        },
+        {
+          "name": "DeclaredLicense",
+          "value": "MIT"
+        },
+        {
+          "name": "DeepLicense",
+          "value": "MIT"
+        }
+      ],
+      "evidence": {
+        "licenses": [
+          {
+            "expression": "MIT"
+          }
+        ],
+        "copyright": [
+          {
+            "text": "Copyright (C) 2014-2015 douglas christopher wilson doug"
+          },
+          {
+            "text": "Copyright (C) 2014 jonathan ong me"
+          }
+        ]
+      }
+    },
+    {
+      "bom-ref": "pkg:npm/unpipe@1.0.0",
+      "type": "library",
+      "supplier": {
+        "name": ""
+      },
+      "name": "unpipe",
+      "version": "1.0.0",
+      "scope": "required",
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "copyright": "Copyright (C) 2015 douglas christopher wilson doug\n",
+      "cpe": "cpe:2.3:a:*:unpipe:1.0.0:*:*:*:*:*:*:*",
+      "purl": "pkg:npm/unpipe@1.0.0",
+      "swid": {
+        "tagId": "npm/unpipe@1.0.0",
+        "name": "unpipe",
+        "version": "1.0.0"
+      },
+      "properties": [
+        {
+          "name": "Path",
+          "value": ""
+        },
+        {
+          "name": "Class",
+          "value": "pkg"
+        },
+        {
+          "name": "Type",
+          "value": "npm"
+        },
+        {
+          "name": "Language",
+          "value": "nodejs"
+        },
+        {
+          "name": "DeclaredLicense",
+          "value": "MIT"
+        },
+        {
+          "name": "DeepLicense",
+          "value": "MIT"
+        }
+      ],
+      "evidence": {
+        "licenses": [
+          {
+            "expression": "MIT"
+          }
+        ],
+        "copyright": [
+          {
+            "text": "Copyright (C) 2015 douglas christopher wilson doug"
+          }
+        ]
+      }
+    },
+    {
+      "bom-ref": "pkg:npm/utils-merge@1.0.1",
+      "type": "library",
+      "supplier": {
+        "name": ""
+      },
+      "name": "utils-merge",
+      "version": "1.0.1",
+      "scope": "required",
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "copyright": "Copyright (C) 2013-2017 jared hanson\nCopyright (C) 2013-2017 jared hanson http\n",
+      "cpe": "cpe:2.3:a:*:utils-merge:1.0.1:*:*:*:*:*:*:*",
+      "purl": "pkg:npm/utils-merge@1.0.1",
+      "swid": {
+        "tagId": "npm/utils-merge@1.0.1",
+        "name": "utils-merge",
+        "version": "1.0.1"
+      },
+      "properties": [
+        {
+          "name": "Path",
+          "value": ""
+        },
+        {
+          "name": "Class",
+          "value": "pkg"
+        },
+        {
+          "name": "Type",
+          "value": "npm"
+        },
+        {
+          "name": "Language",
+          "value": "nodejs"
+        },
+        {
+          "name": "DeclaredLicense",
+          "value": "MIT"
+        },
+        {
+          "name": "DeepLicense",
+          "value": "MIT"
+        }
+      ],
+      "evidence": {
+        "licenses": [
+          {
+            "expression": "MIT"
+          }
+        ],
+        "copyright": [
+          {
+            "text": "Copyright (C) 2013-2017 jared hanson"
+          },
+          {
+            "text": "Copyright (C) 2013-2017 jared hanson http"
+          }
+        ]
+      }
+    },
+    {
+      "bom-ref": "pkg:npm/vary@1.1.2",
+      "type": "library",
+      "supplier": {
+        "name": ""
+      },
+      "name": "vary",
+      "version": "1.1.2",
+      "scope": "required",
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "copyright": "Copyright (C) 2014-2017 douglas christopher wilson\n",
+      "cpe": "cpe:2.3:a:*:vary:1.1.2:*:*:*:*:*:*:*",
+      "purl": "pkg:npm/vary@1.1.2",
+      "swid": {
+        "tagId": "npm/vary@1.1.2",
+        "name": "vary",
+        "version": "1.1.2"
+      },
+      "properties": [
+        {
+          "name": "Path",
+          "value": ""
+        },
+        {
+          "name": "Class",
+          "value": "pkg"
+        },
+        {
+          "name": "Type",
+          "value": "npm"
+        },
+        {
+          "name": "Language",
+          "value": "nodejs"
+        },
+        {
+          "name": "DeclaredLicense",
+          "value": "MIT"
+        },
+        {
+          "name": "DeepLicense",
+          "value": "MIT"
+        }
+      ],
+      "evidence": {
+        "licenses": [
+          {
+            "expression": "MIT"
+          }
+        ],
+        "copyright": [
+          {
+            "text": "Copyright (C) 2014-2017 douglas christopher wilson"
+          }
+        ]
+      }
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "0",
+      "dependsOn": [
+        "2",
+        "21"
+      ]
+    },
+    {
+      "ref": "2",
+      "dependsOn": [
+        "pkg:npm/bl@2.2.1",
+        "pkg:npm/bson@1.1.6",
+        "pkg:npm/core-util-is@1.0.3",
+        "pkg:npm/denque@1.5.1",
+        "pkg:npm/inherits@2.0.4",
+        "pkg:npm/isarray@1.0.0",
+        "pkg:npm/memory-pager@1.5.0",
+        "pkg:npm/mongodb@3.7.4",
+        "pkg:npm/optional-require@1.1.8",
+        "pkg:npm/process-nextick-args@2.0.1",
+        "pkg:npm/readable-stream@2.3.8",
+        "pkg:npm/require-at@1.0.6",
+        "pkg:npm/safe-buffer@5.1.2",
+        "pkg:npm/safe-buffer@5.2.1",
+        "pkg:npm/saslprep@1.0.3",
+        "pkg:npm/sparse-bitfield@3.0.3",
+        "pkg:npm/string_decoder@1.1.1",
+        "pkg:npm/util-deprecate@1.0.2"
+      ]
+    },
+    {
+      "ref": "pkg:npm/bl@2.2.1"
+    },
+    {
+      "ref": "pkg:npm/bson@1.1.6"
+    },
+    {
+      "ref": "pkg:npm/core-util-is@1.0.3"
+    },
+    {
+      "ref": "pkg:npm/denque@1.5.1"
+    },
+    {
+      "ref": "pkg:npm/inherits@2.0.4"
+    },
+    {
+      "ref": "pkg:npm/isarray@1.0.0"
+    },
+    {
+      "ref": "pkg:npm/memory-pager@1.5.0"
+    },
+    {
+      "ref": "pkg:npm/mongodb@3.7.4"
+    },
+    {
+      "ref": "pkg:npm/optional-require@1.1.8"
+    },
+    {
+      "ref": "pkg:npm/process-nextick-args@2.0.1"
+    },
+    {
+      "ref": "pkg:npm/readable-stream@2.3.8"
+    },
+    {
+      "ref": "pkg:npm/require-at@1.0.6"
+    },
+    {
+      "ref": "pkg:npm/safe-buffer@5.1.2"
+    },
+    {
+      "ref": "pkg:npm/safe-buffer@5.2.1"
+    },
+    {
+      "ref": "pkg:npm/saslprep@1.0.3"
+    },
+    {
+      "ref": "pkg:npm/sparse-bitfield@3.0.3"
+    },
+    {
+      "ref": "pkg:npm/string_decoder@1.1.1"
+    },
+    {
+      "ref": "pkg:npm/util-deprecate@1.0.2"
+    },
+    {
+      "ref": "21",
+      "dependsOn": [
+        "pkg:npm/accepts@1.3.8",
+        "pkg:npm/agpl-example@1.0.0",
+        "pkg:npm/array-flatten@1.1.1",
+        "pkg:npm/body-parser@1.18.2",
+        "pkg:npm/bytes@3.0.0",
+        "pkg:npm/content-disposition@0.5.2",
+        "pkg:npm/content-type@1.0.5",
+        "pkg:npm/cookie-signature@1.0.6",
+        "pkg:npm/cookie@0.3.1",
+        "pkg:npm/debug@2.6.9",
+        "pkg:npm/depd@1.1.1",
+        "pkg:npm/depd@1.1.2",
+        "pkg:npm/destroy@1.0.4",
+        "pkg:npm/ee-first@1.1.1",
+        "pkg:npm/encodeurl@1.0.2",
+        "pkg:npm/escape-html@1.0.3",
+        "pkg:npm/etag@1.8.1",
+        "pkg:npm/express@4.16.0",
+        "pkg:npm/finalhandler@1.1.0",
+        "pkg:npm/forwarded@0.2.0",
+        "pkg:npm/fresh@0.5.2",
+        "pkg:npm/http-errors@1.6.2",
+        "pkg:npm/http-errors@1.6.3",
+        "pkg:npm/iconv-lite@0.4.19",
+        "pkg:npm/inherits@2.0.3",
+        "pkg:npm/ipaddr.js@1.9.1",
+        "pkg:npm/lodash@4.17.15",
+        "pkg:npm/media-typer@0.3.0",
+        "pkg:npm/merge-descriptors@1.0.1",
+        "pkg:npm/methods@1.1.2",
+        "pkg:npm/mime-db@1.52.0",
+        "pkg:npm/mime-types@2.1.35",
+        "pkg:npm/mime@1.4.1",
+        "pkg:npm/ms@2.0.0",
+        "pkg:npm/negotiator@0.6.3",
+        "pkg:npm/on-finished@2.3.0",
+        "pkg:npm/parseurl@1.3.3",
+        "pkg:npm/path-to-regexp@0.1.7",
+        "pkg:npm/proxy-addr@2.0.7",
+        "pkg:npm/qs@6.5.1",
+        "pkg:npm/range-parser@1.2.1",
+        "pkg:npm/raw-body@2.3.2",
+        "pkg:npm/safe-buffer@5.1.1",
+        "pkg:npm/send@0.16.0",
+        "pkg:npm/serve-static@1.13.0",
+        "pkg:npm/setprototypeof@1.0.3",
+        "pkg:npm/setprototypeof@1.1.0",
+        "pkg:npm/statuses@1.3.1",
+        "pkg:npm/statuses@1.5.0",
+        "pkg:npm/type-is@1.6.18",
+        "pkg:npm/unpipe@1.0.0",
+        "pkg:npm/utils-merge@1.0.1",
+        "pkg:npm/vary@1.1.2"
+      ]
+    },
+    {
+      "ref": "pkg:npm/accepts@1.3.8"
+    },
+    {
+      "ref": "pkg:npm/agpl-example@1.0.0"
+    },
+    {
+      "ref": "pkg:npm/array-flatten@1.1.1"
+    },
+    {
+      "ref": "pkg:npm/body-parser@1.18.2"
+    },
+    {
+      "ref": "pkg:npm/bytes@3.0.0"
+    },
+    {
+      "ref": "pkg:npm/content-disposition@0.5.2"
+    },
+    {
+      "ref": "pkg:npm/content-type@1.0.5"
+    },
+    {
+      "ref": "pkg:npm/cookie-signature@1.0.6"
+    },
+    {
+      "ref": "pkg:npm/cookie@0.3.1"
+    },
+    {
+      "ref": "pkg:npm/debug@2.6.9"
+    },
+    {
+      "ref": "pkg:npm/depd@1.1.1"
+    },
+    {
+      "ref": "pkg:npm/depd@1.1.2"
+    },
+    {
+      "ref": "pkg:npm/destroy@1.0.4"
+    },
+    {
+      "ref": "pkg:npm/ee-first@1.1.1"
+    },
+    {
+      "ref": "pkg:npm/encodeurl@1.0.2"
+    },
+    {
+      "ref": "pkg:npm/escape-html@1.0.3"
+    },
+    {
+      "ref": "pkg:npm/etag@1.8.1"
+    },
+    {
+      "ref": "pkg:npm/express@4.16.0"
+    },
+    {
+      "ref": "pkg:npm/finalhandler@1.1.0"
+    },
+    {
+      "ref": "pkg:npm/forwarded@0.2.0"
+    },
+    {
+      "ref": "pkg:npm/fresh@0.5.2"
+    },
+    {
+      "ref": "pkg:npm/http-errors@1.6.2"
+    },
+    {
+      "ref": "pkg:npm/http-errors@1.6.3"
+    },
+    {
+      "ref": "pkg:npm/iconv-lite@0.4.19"
+    },
+    {
+      "ref": "pkg:npm/inherits@2.0.3"
+    },
+    {
+      "ref": "pkg:npm/ipaddr.js@1.9.1"
+    },
+    {
+      "ref": "pkg:npm/lodash@4.17.15"
+    },
+    {
+      "ref": "pkg:npm/media-typer@0.3.0"
+    },
+    {
+      "ref": "pkg:npm/merge-descriptors@1.0.1"
+    },
+    {
+      "ref": "pkg:npm/methods@1.1.2"
+    },
+    {
+      "ref": "pkg:npm/mime-db@1.52.0"
+    },
+    {
+      "ref": "pkg:npm/mime-types@2.1.35"
+    },
+    {
+      "ref": "pkg:npm/mime@1.4.1"
+    },
+    {
+      "ref": "pkg:npm/ms@2.0.0"
+    },
+    {
+      "ref": "pkg:npm/negotiator@0.6.3"
+    },
+    {
+      "ref": "pkg:npm/on-finished@2.3.0"
+    },
+    {
+      "ref": "pkg:npm/parseurl@1.3.3"
+    },
+    {
+      "ref": "pkg:npm/path-to-regexp@0.1.7"
+    },
+    {
+      "ref": "pkg:npm/proxy-addr@2.0.7"
+    },
+    {
+      "ref": "pkg:npm/qs@6.5.1"
+    },
+    {
+      "ref": "pkg:npm/range-parser@1.2.1"
+    },
+    {
+      "ref": "pkg:npm/raw-body@2.3.2"
+    },
+    {
+      "ref": "pkg:npm/safe-buffer@5.1.1"
+    },
+    {
+      "ref": "pkg:npm/send@0.16.0"
+    },
+    {
+      "ref": "pkg:npm/serve-static@1.13.0"
+    },
+    {
+      "ref": "pkg:npm/setprototypeof@1.0.3"
+    },
+    {
+      "ref": "pkg:npm/setprototypeof@1.1.0"
+    },
+    {
+      "ref": "pkg:npm/statuses@1.3.1"
+    },
+    {
+      "ref": "pkg:npm/statuses@1.5.0"
+    },
+    {
+      "ref": "pkg:npm/type-is@1.6.18"
+    },
+    {
+      "ref": "pkg:npm/unpipe@1.0.0"
+    },
+    {
+      "ref": "pkg:npm/utils-merge@1.0.1"
+    },
+    {
+      "ref": "pkg:npm/vary@1.1.2"
+    }
+  ],
+  "vulnerabilities": [
+    {
+      "bom-ref": "75",
+      "id": "CVE-2024-45590",
+      "source": {
+        "name": "CVE",
+        "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-45590"
+      },
+      "ratings": [
+        {
+          "severity": "high"
+        },
+        {
+          "score": 7.5,
+          "severity": "high",
+          "method": "CVSSv3",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+          "justification": "Score"
+        },
+        {
+          "score": 3.6,
+          "severity": "high",
+          "method": "CVSSv3",
+          "justification": "ImpactScore"
+        },
+        {
+          "score": 3.9,
+          "severity": "high",
+          "method": "CVSSv3",
+          "justification": "ExploitabilityScore"
+        }
+      ],
+      "description": "### Impact\n\nbody-parser \u003c1.20.3 is vulnerable to denial of service when url encoding is enabled. A malicious actor using a specially crafted payload could flood the server with a large number of requests, resulting in denial of service.\n\n### Patches\n\nthis issue is patched in 1.20.3\n\n### References\n",
+      "recommendation": "Upgrade to 1.20.3",
+      "affects": [
+        {
+          "ref": "pkg:npm/body-parser@1.18.2"
+        }
+      ],
+      "properties": [
+        {
+          "name": "FixVersion",
+          "value": "1.20.3"
+        }
+      ]
+    },
+    {
+      "bom-ref": "76",
+      "id": "CVE-2024-47764",
+      "source": {
+        "name": "CVE",
+        "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-47764"
+      },
+      "ratings": [
+        {
+          "severity": "low"
+        }
+      ],
+      "description": "### Impact\n\nThe cookie name could be used to set other fields of the cookie, resulting in an unexpected cookie value. For example, `serialize(\"userName=\u003cscript\u003ealert(`XSS3`)\u003c/script\u003e; Max-Age=2592000; a\", value)` would result in `\"userName=\u003cscript\u003ealert(`XSS3`)\u003c/script\u003e; Max-Age=2592000; a=test\"`, setting `userName` cookie to `\u003cscript\u003e` and ignoring `value`.\n\nA similar escape can be used for `path` and `domain`, which could be abused to alter other fields of the cookie.\n\n### Patches\n\nUpgrade to 0.7.0, which updates the validation for `name`, `path`, and `domain`.\n\n### Workarounds\n\nAvoid passing untrusted or arbitrary values for these fields, ensure they are set by the application instead of user input.\n\n### References\n\n* https://github.com/jshttp/cookie/pull/167",
+      "recommendation": "Upgrade to 0.7.0",
+      "affects": [
+        {
+          "ref": "pkg:npm/cookie@0.3.1"
+        }
+      ],
+      "properties": [
+        {
+          "name": "FixVersion",
+          "value": "0.7.0"
+        }
+      ]
+    },
+    {
+      "bom-ref": "77",
+      "id": "CVE-2024-29041",
+      "source": {
+        "name": "CVE",
+        "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-29041"
+      },
+      "ratings": [
+        {
+          "severity": "medium"
+        },
+        {
+          "score": 6.1,
+          "severity": "medium",
+          "method": "CVSSv3",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+          "justification": "Score"
+        },
+        {
+          "score": 2.7,
+          "severity": "medium",
+          "method": "CVSSv3",
+          "justification": "ImpactScore"
+        },
+        {
+          "score": 2.8,
+          "severity": "medium",
+          "method": "CVSSv3",
+          "justification": "ExploitabilityScore"
+        }
+      ],
+      "description": "### Impact\n\nVersions of Express.js prior to 4.19.2 and pre-release alpha and beta versions before 5.0.0-beta.3 are affected by an open redirect vulnerability using malformed URLs.\n\nWhen a user of Express performs a redirect using a user-provided URL Express performs an encode [using `encodeurl`](https://github.com/pillarjs/encodeurl) on the contents before passing it to the `location` header. This can cause malformed URLs to be evaluated in unexpected ways by common redirect allow list implementations in Express applications, leading to an Open Redirect via bypass of a properly implemented allow list.\n\nThe main method impacted is `res.location()` but this is also called from within `res.redirect()`.\n\n### Patches\n\nhttps://github.com/expressjs/express/commit/0867302ddbde0e9463d0564fea5861feb708c2dd\nhttps://github.com/expressjs/express/commit/0b746953c4bd8e377123527db11f9cd866e39f94\n\nAn initial fix went out with `express@4.19.0`, we then patched a feature regression in `4.19.1` and added improved handling for the bypass in `4.19.2`.\n\n### Workarounds\n\nThe fix for this involves pre-parsing the url string with either `require(`node:url`).parse` or `new URL`. These are steps you can take on your own before passing the user input string to `res.location` or `res.redirect`.\n\n### References\n\nhttps://github.com/expressjs/express/pull/5539\nhttps://github.com/koajs/koa/issues/1800\nhttps://expressjs.com/en/4x/api.html#res.location",
+      "recommendation": "Upgrade to 4.19.2",
+      "affects": [
+        {
+          "ref": "pkg:npm/express@4.16.0"
+        }
+      ],
+      "properties": [
+        {
+          "name": "FixVersion",
+          "value": "4.19.2"
+        }
+      ]
+    },
+    {
+      "bom-ref": "78",
+      "id": "CVE-2024-43796",
+      "source": {
+        "name": "CVE",
+        "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-43796"
+      },
+      "ratings": [
+        {
+          "severity": "low"
+        },
+        {
+          "score": 4.7,
+          "severity": "low",
+          "method": "CVSSv3",
+          "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:L/I:L/A:N",
+          "justification": "Score"
+        },
+        {
+          "score": 2.7,
+          "severity": "low",
+          "method": "CVSSv3",
+          "justification": "ImpactScore"
+        },
+        {
+          "score": 1.6,
+          "severity": "low",
+          "method": "CVSSv3",
+          "justification": "ExploitabilityScore"
+        }
+      ],
+      "description": "### Impact\n\nIn express \u003c4.20.0, passing untrusted user input - even after sanitizing it - to `response.redirect()` may execute untrusted code\n\n### Patches\n\nthis issue is patched in express 4.20.0\n\n### Workarounds\n\nusers are encouraged to upgrade to the patched version of express, but otherwise can workaround this issue by making sure any untrusted inputs are safe, ideally by validating them against an explicit allowlist\n\n### Details\n\nsuccessful exploitation of this vector requires the following:\n\n1. The attacker MUST control the input to response.redirect()\n1. express MUST NOT redirect before the template appears\n1. the browser MUST NOT complete redirection before:\n1. the user MUST click on the link in the template\n",
+      "recommendation": "Upgrade to 4.20.0",
+      "affects": [
+        {
+          "ref": "pkg:npm/express@4.16.0"
+        }
+      ],
+      "properties": [
+        {
+          "name": "FixVersion",
+          "value": "4.20.0"
+        }
+      ]
+    },
+    {
+      "bom-ref": "79",
+      "id": "CVE-2020-8203",
+      "source": {
+        "name": "CVE",
+        "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-8203"
+      },
+      "ratings": [
+        {
+          "severity": "high"
+        },
+        {
+          "score": 5.8,
+          "severity": "high",
+          "method": "CVSSv2",
+          "vector": "AV:N/AC:M/Au:N/C:N/I:P/A:P",
+          "justification": "Score"
+        },
+        {
+          "score": 7.4,
+          "severity": "high",
+          "method": "CVSSv3",
+          "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:H",
+          "justification": "Score"
+        },
+        {
+          "score": 5.2,
+          "severity": "high",
+          "method": "CVSSv3",
+          "justification": "ImpactScore"
+        },
+        {
+          "score": 2.2,
+          "severity": "high",
+          "method": "CVSSv3",
+          "justification": "ExploitabilityScore"
+        }
+      ],
+      "description": "Versions of lodash prior to 4.17.19 are vulnerable to Prototype Pollution. The functions `pick`, `set`, `setWith`, `update`, `updateWith`, and `zipObjectDeep` allow a malicious user to modify the prototype of Object if the property identifiers are user-supplied. Being affected by this issue requires manipulating objects based on user-provided property values or arrays.\n\nThis vulnerability causes the addition or modification of an existing property that will exist on all objects and may lead to Denial of Service or Code Execution under specific circumstances.",
+      "recommendation": "Upgrade to 4.17.19",
+      "published": "2024-11-21T05:38:30Z",
+      "affects": [
+        {
+          "ref": "pkg:npm/lodash@4.17.15"
+        }
+      ],
+      "properties": [
+        {
+          "name": "FixVersion",
+          "value": "4.17.19"
+        }
+      ]
+    },
+    {
+      "bom-ref": "80",
+      "id": "CVE-2021-23337",
+      "source": {
+        "name": "CVE",
+        "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-23337"
+      },
+      "ratings": [
+        {
+          "severity": "high"
+        },
+        {
+          "score": 6.5,
+          "severity": "high",
+          "method": "CVSSv2",
+          "vector": "AV:N/AC:L/Au:S/C:P/I:P/A:P",
+          "justification": "Score"
+        },
+        {
+          "score": 7.2,
+          "severity": "high",
+          "method": "CVSSv3",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+          "justification": "Score"
+        },
+        {
+          "score": 5.9,
+          "severity": "high",
+          "method": "CVSSv3",
+          "justification": "ImpactScore"
+        },
+        {
+          "score": 1.2,
+          "severity": "high",
+          "method": "CVSSv3",
+          "justification": "ExploitabilityScore"
+        }
+      ],
+      "description": "`lodash` versions prior to 4.17.21 are vulnerable to Command Injection via the template function.",
+      "recommendation": "Upgrade to 4.17.21",
+      "published": "2024-11-21T05:51:32Z",
+      "affects": [
+        {
+          "ref": "pkg:npm/lodash@4.17.15"
+        }
+      ],
+      "properties": [
+        {
+          "name": "FixVersion",
+          "value": "4.17.21"
+        }
+      ]
+    },
+    {
+      "bom-ref": "81",
+      "id": "CVE-2020-28500",
+      "source": {
+        "name": "CVE",
+        "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-28500"
+      },
+      "ratings": [
+        {
+          "severity": "medium"
+        },
+        {
+          "score": 5,
+          "severity": "medium",
+          "method": "CVSSv2",
+          "vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
+          "justification": "Score"
+        },
+        {
+          "score": 5.3,
+          "severity": "medium",
+          "method": "CVSSv3",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+          "justification": "Score"
+        },
+        {
+          "score": 1.4,
+          "severity": "medium",
+          "method": "CVSSv3",
+          "justification": "ImpactScore"
+        },
+        {
+          "score": 3.9,
+          "severity": "medium",
+          "method": "CVSSv3",
+          "justification": "ExploitabilityScore"
+        }
+      ],
+      "description": "All versions of package lodash prior to 4.17.21 are vulnerable to Regular Expression Denial of Service (ReDoS) via the `toNumber`, `trim` and `trimEnd` functions. \n\nSteps to reproduce (provided by reporter Liyuan Chen):\n```js\nvar lo = require(`lodash`);\n\nfunction build_blank(n) {\n    var ret = \"1\"\n    for (var i = 0; i \u003c n; i++) {\n        ret += \" \"\n    }\n    return ret + \"1\";\n}\nvar s = build_blank(50000) var time0 = Date.now();\nlo.trim(s) \nvar time_cost0 = Date.now() - time0;\nconsole.log(\"time_cost0: \" + time_cost0);\nvar time1 = Date.now();\nlo.toNumber(s) var time_cost1 = Date.now() - time1;\nconsole.log(\"time_cost1: \" + time_cost1);\nvar time2 = Date.now();\nlo.trimEnd(s);\nvar time_cost2 = Date.now() - time2;\nconsole.log(\"time_cost2: \" + time_cost2);\n```",
+      "recommendation": "Upgrade to 4.17.21",
+      "published": "2024-11-21T05:22:55Z",
+      "affects": [
+        {
+          "ref": "pkg:npm/lodash@4.17.15"
+        }
+      ],
+      "properties": [
+        {
+          "name": "FixVersion",
+          "value": "4.17.21"
+        }
+      ]
+    },
+    {
+      "bom-ref": "82",
+      "id": "CVE-2024-45296",
+      "source": {
+        "name": "CVE",
+        "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-45296"
+      },
+      "ratings": [
+        {
+          "severity": "high"
+        },
+        {
+          "score": 7.5,
+          "severity": "high",
+          "method": "CVSSv3",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+          "justification": "Score"
+        },
+        {
+          "score": 3.6,
+          "severity": "high",
+          "method": "CVSSv3",
+          "justification": "ImpactScore"
+        },
+        {
+          "score": 3.9,
+          "severity": "high",
+          "method": "CVSSv3",
+          "justification": "ExploitabilityScore"
+        }
+      ],
+      "description": "### Impact\n\nA bad regular expression is generated any time you have two parameters within a single segment, separated by something that is not a period (`.`). For example, `/:a-:b`.\n\n### Patches\n\nFor users of 0.1, upgrade to `0.1.10`. All other users should upgrade to `8.0.0`.\n\nThese versions add backtrack protection when a custom regex pattern is not provided:\n\n- [0.1.10](https://github.com/pillarjs/path-to-regexp/releases/tag/v0.1.10)\n- [1.9.0](https://github.com/pillarjs/path-to-regexp/releases/tag/v1.9.0)\n- [3.3.0](https://github.com/pillarjs/path-to-regexp/releases/tag/v3.3.0)\n- [6.3.0](https://github.com/pillarjs/path-to-regexp/releases/tag/v6.3.0)\n\nThey do not protect against vulnerable user supplied capture groups. Protecting against explicit user patterns is out of scope for old versions and not considered a vulnerability.\n\nVersion [7.1.0](https://github.com/pillarjs/path-to-regexp/releases/tag/v7.1.0) can enable `strict: true` and get an error when the regular expression might be bad.\n\nVersion [8.0.0](https://github.com/pillarjs/path-to-regexp/releases/tag/v8.0.0) removes the features that can cause a ReDoS.\n\n### Workarounds\n\nAll versions can be patched by providing a custom regular expression for parameters after the first in a single segment. As long as the custom regular expression does not match the text before the parameter, you will be safe. For example, change `/:a-:b` to `/:a-:b([^-/]+)`.\n\nIf paths cannot be rewritten and versions cannot be upgraded, another alternative is to limit the URL length. For example, halving the attack string improves performance by 4x faster.\n\n### Details\n\nUsing `/:a-:b` will produce the regular expression `/^\\/([^\\/]+?)-([^\\/]+?)\\/?$/`. This can be exploited by a path such as `/a${`-a`.repeat(8_000)}/a`. [OWASP](https://owasp.org/www-community/attacks/Regular_expression_Denial_of_Service_-_ReDoS) has a good example of why this occurs, but the TL;DR is the `/a` at the end ensures this route would never match but due to naive backtracking it will still attempt every combination of the `:a-:b` on the repeated 8,000 `-a`.\n\nBecause JavaScript is single threaded and regex matching runs on the main thread, poor performance will block the event loop and can lead to a DoS. In local benchmarks, exploiting the unsafe regex will result in performance that is over 1000x worse than the safe regex. In a more realistic environment using Express v4 and 10 concurrent connections, this translated to average latency of ~600ms vs 1ms.\n\n### References\n\n* [OWASP](https://owasp.org/www-community/attacks/Regular_expression_Denial_of_Service_-_ReDoS)\n* [Detailed blog post](https://blakeembrey.com/posts/2024-09-web-redos/)",
+      "recommendation": "Upgrade to 0.1.10",
+      "affects": [
+        {
+          "ref": "pkg:npm/path-to-regexp@0.1.7"
+        }
+      ],
+      "properties": [
+        {
+          "name": "FixVersion",
+          "value": "0.1.10"
+        }
+      ]
+    },
+    {
+      "bom-ref": "83",
+      "id": "CVE-2024-52798",
+      "source": {
+        "name": "CVE",
+        "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-52798"
+      },
+      "ratings": [
+        {
+          "severity": "high"
+        }
+      ],
+      "description": "### Impact\n\nThe regular expression that is vulnerable to backtracking can be generated in versions before 0.1.12 of `path-to-regexp`, originally reported in CVE-2024-45296\n\n### Patches\n\nUpgrade to 0.1.12.\n\n### Workarounds\n\nAvoid using two parameters within a single path segment, when the separator is not `.` (e.g. no `/:a-:b`). Alternatively, you can define the regex used for both parameters and ensure they do not overlap to allow backtracking.\n\n### References\n\n- https://github.com/advisories/GHSA-9wv6-86v2-598j\n- https://blakeembrey.com/posts/2024-09-web-redos/",
+      "recommendation": "Upgrade to 0.1.12",
+      "affects": [
+        {
+          "ref": "pkg:npm/path-to-regexp@0.1.7"
+        }
+      ],
+      "properties": [
+        {
+          "name": "FixVersion",
+          "value": "0.1.12"
+        }
+      ]
+    },
+    {
+      "bom-ref": "84",
+      "id": "CVE-2022-24999",
+      "source": {
+        "name": "CVE",
+        "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-24999"
+      },
+      "ratings": [
+        {
+          "severity": "high"
+        },
+        {
+          "score": 7.5,
+          "severity": "high",
+          "method": "CVSSv3",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+          "justification": "Score"
+        },
+        {
+          "score": 3.6,
+          "severity": "high",
+          "method": "CVSSv3",
+          "justification": "ImpactScore"
+        },
+        {
+          "score": 3.9,
+          "severity": "high",
+          "method": "CVSSv3",
+          "justification": "ExploitabilityScore"
+        }
+      ],
+      "description": "qs before 6.10.3 allows attackers to cause a Node process hang because an `__ proto__` key can be used. In many typical web framework use cases, an unauthenticated remote attacker can place the attack payload in the query string of the URL that is used to visit the application, such as `a[__proto__]=b\u0026a[__proto__]\u0026a[length]=100000000`. The fix was backported to qs 6.9.7, 6.8.3, 6.7.3, 6.6.1, 6.5.3, 6.4.1, 6.3.3, and 6.2.4.",
+      "recommendation": "Upgrade to 6.5.3",
+      "affects": [
+        {
+          "ref": "pkg:npm/qs@6.5.1"
+        }
+      ],
+      "properties": [
+        {
+          "name": "FixVersion",
+          "value": "6.5.3"
+        }
+      ]
+    },
+    {
+      "bom-ref": "85",
+      "id": "CVE-2024-43799",
+      "source": {
+        "name": "CVE",
+        "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-43799"
+      },
+      "ratings": [
+        {
+          "severity": "low"
+        },
+        {
+          "score": 4.7,
+          "severity": "low",
+          "method": "CVSSv3",
+          "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:L/I:L/A:N",
+          "justification": "Score"
+        },
+        {
+          "score": 2.7,
+          "severity": "low",
+          "method": "CVSSv3",
+          "justification": "ImpactScore"
+        },
+        {
+          "score": 1.6,
+          "severity": "low",
+          "method": "CVSSv3",
+          "justification": "ExploitabilityScore"
+        }
+      ],
+      "description": "### Impact\n\npassing untrusted user input - even after sanitizing it - to `SendStream.redirect()` may execute untrusted code\n\n### Patches\n\nthis issue is patched in send 0.19.0\n\n### Workarounds\n\nusers are encouraged to upgrade to the patched version of express, but otherwise can workaround this issue by making sure any untrusted inputs are safe, ideally by validating them against an explicit allowlist\n\n### Details\n\nsuccessful exploitation of this vector requires the following:\n\n1. The attacker MUST control the input to response.redirect()\n1. express MUST NOT redirect before the template appears\n1. the browser MUST NOT complete redirection before:\n1. the user MUST click on the link in the template\n",
+      "recommendation": "Upgrade to 0.19.0",
+      "affects": [
+        {
+          "ref": "pkg:npm/send@0.16.0"
+        }
+      ],
+      "properties": [
+        {
+          "name": "FixVersion",
+          "value": "0.19.0"
+        }
+      ]
+    },
+    {
+      "bom-ref": "86",
+      "id": "CVE-2024-43800",
+      "source": {
+        "name": "CVE",
+        "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-43800"
+      },
+      "ratings": [
+        {
+          "severity": "low"
+        },
+        {
+          "score": 4.7,
+          "severity": "low",
+          "method": "CVSSv3",
+          "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:L/I:L/A:N",
+          "justification": "Score"
+        },
+        {
+          "score": 2.7,
+          "severity": "low",
+          "method": "CVSSv3",
+          "justification": "ImpactScore"
+        },
+        {
+          "score": 1.6,
+          "severity": "low",
+          "method": "CVSSv3",
+          "justification": "ExploitabilityScore"
+        }
+      ],
+      "description": "### Impact\n\npassing untrusted user input - even after sanitizing it - to `redirect()` may execute untrusted code\n\n### Patches\n\nthis issue is patched in serve-static 1.16.0\n\n### Workarounds\n\nusers are encouraged to upgrade to the patched version of express, but otherwise can workaround this issue by making sure any untrusted inputs are safe, ideally by validating them against an explicit allowlist\n\n### Details\n\nsuccessful exploitation of this vector requires the following:\n\n1. The attacker MUST control the input to response.redirect()\n1. express MUST NOT redirect before the template appears\n1. the browser MUST NOT complete redirection before:\n1. the user MUST click on the link in the template\n",
+      "recommendation": "Upgrade to 1.16.0",
+      "affects": [
+        {
+          "ref": "pkg:npm/serve-static@1.13.0"
+        }
+      ],
+      "properties": [
+        {
+          "name": "FixVersion",
+          "value": "1.16.0"
+        }
+      ]
+    }
+  ]
+}
