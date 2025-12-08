@@ -27,25 +27,16 @@ GitHub's secret scanning may flag these fake secrets. If you see alerts:
 
 ### For Repository Maintainers
 
-**If your push is being blocked by repository rules:**
+**If your push is being blocked by GitHub's push protection:**
 
-1. **Check Repository Rules** (if you have admin access):
-   - Go to Settings → Rules → Rulesets
-   - Look for rules blocking pushes with secrets
-   - Temporarily disable or modify the rule for this repository
+GitHub's push protection will detect secret patterns and block pushes. To allow fake secrets in this demo repository:
 
-2. **Alternative: Make secrets more obviously fake**:
-   - Use patterns like `FAKE_sk_live_...` or `EXAMPLE_AKIA...`
-   - This may reduce detection but some patterns will still trigger
-
-3. **Contact GitHub Support**:
-   - If you can't modify repository rules, contact GitHub support
-   - Explain this is an educational/demonstration repository
-   - Reference this SECURITY.md file
-
-4. **Use a different branch**:
-   - Some repository rules only apply to `main` branch
-   - Try pushing to a different branch first
+**Use GitHub's Unblock URLs**:
+   - When you try to push, GitHub will provide specific URLs for each detected secret
+   - Example: `https://github.com/.../security/secret-scanning/unblock-secret/[ID]`
+   - Click each URL and select "It's used in tests"
+   - After unblocking all detected secrets, you can push successfully
+   - This allows the secrets while keeping push protection enabled for other repositories
 
 **DO NOT** use any credentials from this repository in production environments.
 
