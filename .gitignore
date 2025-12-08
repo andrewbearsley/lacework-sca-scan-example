@@ -32,3 +32,9 @@ node_modules/
 
 # Mac files
 .DS_Store
+
+# Lacework scan reports (contain personal information like paths and machine names)
+scan-report.json
+scan-report.md
+sbom.json
+*.sbom.json

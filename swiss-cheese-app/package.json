@@ -1,0 +1,16 @@
+{
+  "name": "swiss-cheese-app",
+  "version": "1.0.0",
+  "description": "Swiss cheese app - full of security holes for SCA scanning demonstration",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Example Author",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "4.17.15",
+    "express": "4.16.0"
+  }
+}

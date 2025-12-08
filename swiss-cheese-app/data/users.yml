@@ -1,0 +1,33 @@
+# Hardcoded user credentials (BAD PRACTICE - for SCA demonstration only)
+
+-
+  email: admin@example.com
+  password: 'admin123'
+  key: admin
+  role: 'admin'
+  securityQuestion:
+    id: 2
+    answer: '@xI98PxDO+06!'
+  apiKey: 'sk_live_admin_key_1234567890abcdef'
+  databasePassword: 'AdminDBPassword123!'
+
+-
+  email: user@example.com
+  password: 'password123'
+  key: user
+  role: 'customer'
+  securityQuestion:
+    id: 1
+    answer: 'MySecretAnswer'
+  stripeKey: 'sk_test_51H3ll0W0rld9876543210fedcba'
+  awsSecret: 'wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY'
+
+-
+  email: test@example.com
+  password: 'test123456'
+  key: test
+  role: 'tester'
+  jwtSecret: 'my-super-secret-jwt-key-that-should-not-be-hardcoded'
+  githubToken: 'ghp_abcdefghijklmnopqrstuvwxyz1234567890'
+  slackToken: 'xoxb-1234567890-1234567890123-abcdefghijklmnopqrstuvwx'
+

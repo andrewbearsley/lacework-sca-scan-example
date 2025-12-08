@@ -2,6 +2,8 @@
 
 This project is an example of a Software Composition Analysis (SCA) policy for Lacework FortiCNAPP.
 
+⚠️ **WARNING**: This repository contains **intentional security vulnerabilities and fake secrets** for demonstration purposes. See [SECURITY.md](SECURITY.md) for details.
+
 ## Docs
 
 https://docs.fortinet.com/document/lacework-forticnapp/latest/administration-guide/433465/software-composition-analysis-sca
@@ -33,9 +35,18 @@ lacework component update sca
 # Scan the current directory
 lacework sca scan .
 
+# Scan a specific subdirectory (recommended for subdirectories with their own package files)
+lacework sca scan ./swiss-cheese-app
+
 # Generate Bill Of Materials (SBOM)
 lacework sca scan ./ -f cdx-json -o sbom.json
+
+# Export detailed report with all secrets and vulnerabilities
+lacework sca scan ./swiss-cheese-app -f lw-json -o scan-report.json
+lacework sca scan ./swiss-cheese-app -f md-summary -o scan-report.md
 ```
+
+**Note:** The scanner treats subdirectories with their own package files (e.g., `package.json`, `requirements.txt`, `pom.xml`) as separate projects. To get a complete analysis including secrets and vulnerabilities in nested projects, you may need to scan each subdirectory individually. For example, scanning from the root may not detect all secrets in `swiss-cheese-app/` - you should scan `./swiss-cheese-app` directly for a complete analysis of that subdirectory.
 
 ## Example Output
 ```
@@ -70,30 +81,30 @@ Vulnerabilities
 Total vulnerabilities: 12
 
 lodash@4.17.15: 3 vulnerabilities
-  direct: example-app@1.0.0 -> lodash@4.17.15
+  direct: swiss-cheese-app@1.0.0 -> lodash@4.17.15
   🛑 High:     CVE-2020-8203, CVE-2021-23337
   🟧 Medium:   CVE-2020-28500
 path-to-regexp@0.1.7: 2 vulnerabilities
-  transitive: example-app@1.0.0 -> express@4.16.0 -> path-to-regexp@0.1.7
+  transitive: swiss-cheese-app@1.0.0 -> express@4.16.0 -> path-to-regexp@0.1.7
   🛑 High:     CVE-2024-45296, CVE-2024-52798
 body-parser@1.18.2: 1 vulnerabilities
-  transitive: example-app@1.0.0 -> express@4.16.0 -> body-parser@1.18.2
+  transitive: swiss-cheese-app@1.0.0 -> express@4.16.0 -> body-parser@1.18.2
   🛑 High:     CVE-2024-45590
 qs@6.5.1: 1 vulnerabilities
-  transitive: example-app@1.0.0 -> express@4.16.0 -> qs@6.5.1
+  transitive: swiss-cheese-app@1.0.0 -> express@4.16.0 -> qs@6.5.1
   🛑 High:     CVE-2022-24999
 express@4.16.0: 2 vulnerabilities
-  direct: example-app@1.0.0 -> express@4.16.0
+  direct: swiss-cheese-app@1.0.0 -> express@4.16.0
   🟧 Medium:   CVE-2024-29041
   🟡 Low:      CVE-2024-43796
 cookie@0.3.1: 1 vulnerabilities
-  transitive: example-app@1.0.0 -> express@4.16.0 -> cookie@0.3.1
+  transitive: swiss-cheese-app@1.0.0 -> express@4.16.0 -> cookie@0.3.1
   🟡 Low:      CVE-2024-47764
 send@0.16.0: 1 vulnerabilities
-  transitive: example-app@1.0.0 -> express@4.16.0 -> send@0.16.0
+  transitive: swiss-cheese-app@1.0.0 -> express@4.16.0 -> send@0.16.0
   🟡 Low:      CVE-2024-43799
 serve-static@1.13.0: 1 vulnerabilities
-  transitive: example-app@1.0.0 -> express@4.16.0 -> serve-static@1.13.0
+  transitive: swiss-cheese-app@1.0.0 -> express@4.16.0 -> serve-static@1.13.0
   🟡 Low:      CVE-2024-43800
 
 Weaknesses
