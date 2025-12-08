@@ -8,7 +8,7 @@ const crypto = require('crypto');
 
 // Hardcoded secrets and credentials (BAD PRACTICE - for SCA demonstration only)
 // NOTE: These are FAKE secrets with obvious patterns to demonstrate SCA detection
-const API_KEY = 'FAKE_sk_live_51H3ll0W0rld1234567890abcdef_DEMO_ONLY';
+const API_KEY = 'FAKE_STRIPE_KEY_DEMO_ONLY_NOT_REAL_sk_live_51H3ll0W0rld1234567890abcdef';
 const DB_PASSWORD = 'FAKE_SuperSecretPassword123_DEMO';
 const JWT_SECRET = 'FAKE_my-secret-key-that-should-never-be-hardcoded_DEMO';
 const AWS_ACCESS_KEY = 'AKIAIOSFODNN7EXAMPLE'; // AWS official example key - safe to use

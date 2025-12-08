@@ -9,7 +9,7 @@
   securityQuestion:
     id: 2
     answer: 'FAKE_@xI98PxDO+06!_DEMO'
-  apiKey: 'FAKE_sk_live_admin_key_1234567890abcdef_DEMO'
+  apiKey: 'FAKE_STRIPE_KEY_DEMO_NOT_REAL_sk_live_admin_key_1234567890abcdef'
   databasePassword: 'FAKE_AdminDBPassword123_DEMO'
 
 -
@@ -20,7 +20,7 @@
   securityQuestion:
     id: 1
     answer: 'FAKE_MySecretAnswer_DEMO'
-  stripeKey: 'FAKE_sk_test_51H3ll0W0rld9876543210fedcba_DEMO'
+  stripeKey: 'FAKE_STRIPE_KEY_DEMO_NOT_REAL_sk_test_51H3ll0W0rld9876543210fedcba'
   awsSecret: 'wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY' # AWS official example key - safe
 
 -
