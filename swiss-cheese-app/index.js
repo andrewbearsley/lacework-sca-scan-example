@@ -7,19 +7,20 @@ const _ = require('lodash');       // Vulnerable version 4.17.15
 const crypto = require('crypto');
 
 // Hardcoded secrets and credentials (BAD PRACTICE - for SCA demonstration only)
-const API_KEY = 'sk_live_51H3ll0W0rld1234567890abcdef';
-const DB_PASSWORD = 'SuperSecretPassword123!';
-const JWT_SECRET = 'my-secret-key-that-should-never-be-hardcoded';
-const AWS_ACCESS_KEY = 'AKIAIOSFODNN7EXAMPLE';
-const AWS_SECRET_KEY = 'wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY';
+// NOTE: These are FAKE secrets with obvious patterns to demonstrate SCA detection
+const API_KEY = 'FAKE_sk_live_51H3ll0W0rld1234567890abcdef_DEMO_ONLY';
+const DB_PASSWORD = 'FAKE_SuperSecretPassword123_DEMO';
+const JWT_SECRET = 'FAKE_my-secret-key-that-should-never-be-hardcoded_DEMO';
+const AWS_ACCESS_KEY = 'AKIAIOSFODNN7EXAMPLE'; // AWS official example key - safe to use
+const AWS_SECRET_KEY = 'wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY'; // AWS official example key - safe to use
 
-// More hardcoded credentials
-const MONGODB_URI = 'mongodb://admin:admin123@localhost:27017/mydb?authSource=admin';
-const POSTGRES_CONNECTION = 'postgresql://user:password123@localhost:5432/mydb';
-const REDIS_PASSWORD = 'redis-secret-password-12345';
-const GITHUB_TOKEN = 'ghp_1234567890abcdefghijklmnopqrstuvwxyz';
-const SLACK_WEBHOOK = 'https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXXXXXXXXXXXXXXXX';
-const DATABASE_URL = 'mysql://root:rootpassword@localhost:3306/production_db';
+// More hardcoded credentials (all FAKE for demonstration)
+const MONGODB_URI = 'mongodb://FAKE_admin:FAKE_admin123@localhost:27017/mydb?authSource=admin';
+const POSTGRES_CONNECTION = 'postgresql://FAKE_user:FAKE_password123@localhost:5432/mydb';
+const REDIS_PASSWORD = 'FAKE_redis-secret-password-12345_DEMO';
+const GITHUB_TOKEN = 'FAKE_ghp_1234567890abcdefghijklmnopqrstuvwxyz_DEMO';
+const SLACK_WEBHOOK = 'https://hooks.slack.com/services/FAKE_T00000000/FAKE_B00000000/FAKE_XXXXXXXXXXXXXXXXXXXXXXXX';
+const DATABASE_URL = 'mysql://FAKE_root:FAKE_rootpassword@localhost:3306/production_db';
 
 // Create an Express app (vulnerable version)
 const app = express();

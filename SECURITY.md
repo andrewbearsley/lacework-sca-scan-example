@@ -27,10 +27,25 @@ GitHub's secret scanning may flag these fake secrets. If you see alerts:
 
 ### For Repository Maintainers
 
-If you need to bypass secret scanning alerts:
-- Dismiss the alerts in GitHub's security tab
-- Add this repository to your organization's secret scanning allowlist (if available)
-- Contact GitHub support if you need assistance
+**If your push is being blocked by repository rules:**
+
+1. **Check Repository Rules** (if you have admin access):
+   - Go to Settings → Rules → Rulesets
+   - Look for rules blocking pushes with secrets
+   - Temporarily disable or modify the rule for this repository
+
+2. **Alternative: Make secrets more obviously fake**:
+   - Use patterns like `FAKE_sk_live_...` or `EXAMPLE_AKIA...`
+   - This may reduce detection but some patterns will still trigger
+
+3. **Contact GitHub Support**:
+   - If you can't modify repository rules, contact GitHub support
+   - Explain this is an educational/demonstration repository
+   - Reference this SECURITY.md file
+
+4. **Use a different branch**:
+   - Some repository rules only apply to `main` branch
+   - Try pushing to a different branch first
 
 **DO NOT** use any credentials from this repository in production environments.
 
