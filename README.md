@@ -48,6 +48,14 @@ lacework sca scan ./swiss-cheese-app -f md-summary -o scan-report.md
 
 **Note:** The scanner treats subdirectories with their own package files (e.g., `package.json`, `requirements.txt`, `pom.xml`) as separate projects. To get a complete analysis including secrets and vulnerabilities in nested projects, you may need to scan each subdirectory individually. For example, scanning from the root may not detect all secrets in `swiss-cheese-app/` - you should scan `./swiss-cheese-app` directly for a complete analysis of that subdirectory.
 
+## Demo run order
+
+Three views of the same repository, from the developer's terminal to the pipeline.
+
+1. **Developer view.** `lacework sca scan . --deployment=local`. Point at the direct versus transitive chain, the fix version per CVE, the secrets count and the licence risks.
+2. **Pipeline view.** `./ci-demo.sh`. Runs the scan in `ci` deployment mode, writes SARIF, CycloneDX SBOM, Markdown summary and JSON to `ci-results/`, then fails the build on any Critical finding. `FAIL_ON=high ./ci-demo.sh` tightens the gate.
+3. **Assistant view.** Open the repo in Claude Code with the Fortinet Code Security plug-in installed and run `/fortinet:code-review`. The same scanners run, and Claude offers a fix, an exception or a skip for each Critical or High finding. Plug-in install: `/plugin marketplace add lacework/forticnapp-llm-plugins` then `/plugin install code-security@fortinet-plugins`. The plug-in repo is private to Fortinet staff.
+
 ## Example Output
 ```
 ❯ lacework sca scan .

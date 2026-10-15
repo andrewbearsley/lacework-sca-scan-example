@@ -38,3 +38,4 @@ scan-report.json
 scan-report.md
 sbom.json
 *.sbom.json
+ci-results/
